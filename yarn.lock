@@ -693,15 +693,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-throttling@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "@octokit/plugin-throttling@npm:5.2.3"
+"@octokit/plugin-throttling@npm:^6.0.0":
+  version: 6.1.0
+  resolution: "@octokit/plugin-throttling@npm:6.1.0"
   dependencies:
     "@octokit/types": "npm:^9.0.0"
     bottleneck: "npm:^2.15.3"
   peerDependencies:
     "@octokit/core": ^4.0.0
-  checksum: 82386231a006e1da9f9be2d98dd7b28c58baa9c2b573b2a9383953db5494d435286f1c3bcb1212602f4cc6457b581effdaf765f04d4b639b5cb5204da455ea48
+  checksum: 680dc2aa7a2ad2fc268cc0c70a1ceea715330b578aa2a462e21864c77c059f49acd6a960fbb443116467838d14b903a47d6f8519ad1fa2637ddf6a850c73cab9
   languageName: node
   linkType: hard
 
@@ -892,30 +892,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:8.1.0":
-  version: 8.1.0
-  resolution: "@semantic-release/github@npm:8.1.0"
+"@semantic-release/github@npm:9.0.0":
+  version: 9.0.0
+  resolution: "@semantic-release/github@npm:9.0.0"
   dependencies:
     "@octokit/core": "npm:^4.2.1"
     "@octokit/plugin-paginate-rest": "npm:^6.1.2"
     "@octokit/plugin-retry": "npm:^4.1.3"
-    "@octokit/plugin-throttling": "npm:^5.2.3"
+    "@octokit/plugin-throttling": "npm:^6.0.0"
     "@semantic-release/error": "npm:^3.0.0"
-    aggregate-error: "npm:^3.0.0"
-    debug: "npm:^4.0.0"
-    dir-glob: "npm:^3.0.0"
-    fs-extra: "npm:^11.0.0"
-    globby: "npm:^11.0.0"
+    aggregate-error: "npm:^4.0.1"
+    debug: "npm:^4.3.4"
+    dir-glob: "npm:^3.0.1"
+    globby: "npm:^13.1.4"
     http-proxy-agent: "npm:^7.0.0"
     https-proxy-agent: "npm:^7.0.0"
     issue-parser: "npm:^6.0.0"
-    lodash: "npm:^4.17.4"
+    lodash-es: "npm:^4.17.21"
     mime: "npm:^3.0.0"
-    p-filter: "npm:^2.0.0"
-    url-join: "npm:^4.0.0"
+    p-filter: "npm:^3.0.0"
+    url-join: "npm:^5.0.0"
   peerDependencies:
-    semantic-release: ">=18.0.0-beta.1"
-  checksum: b977f23f4385f9946de967115083e1f9f2119fd1cd08b57b36c0c38aaaa07414126601cb4a624a9b4755195b7f687c59e61fddf097ad8e53863075d2b8b977ad
+    semantic-release: ">=20.1.0"
+  checksum: 92e265978f904523e66f12340617b01c68de19868db14dc9e7de8f8655b17d0478de32fbc8c5b33770a4898253901e0e1a62345ad3862de5b211a96ae7ce08fc
   languageName: node
   linkType: hard
 
@@ -1209,7 +1208,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aggregate-error@npm:^4.0.0":
+"aggregate-error@npm:^4.0.0, aggregate-error@npm:^4.0.1":
   version: 4.0.1
   resolution: "aggregate-error@npm:4.0.1"
   dependencies:
@@ -3085,7 +3084,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:11.1.0, globby@npm:^11.0.0, globby@npm:^11.0.3":
+"globby@npm:11.1.0, globby@npm:^11.0.3":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -5091,7 +5090,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-filter@npm:2.1.0, p-filter@npm:^2.0.0":
+"p-filter@npm:2.1.0":
   version: 2.1.0
   resolution: "p-filter@npm:2.1.0"
   dependencies:
@@ -6046,7 +6045,7 @@ __metadata:
     "@octokit/plugin-retry": "npm:6.0.1"
     "@octokit/plugin-throttling": "npm:8.1.2"
     "@semantic-release/error": "npm:3.0.0"
-    "@semantic-release/github": "npm:8.1.0"
+    "@semantic-release/github": "npm:9.0.0"
     aggregate-error: "npm:3.1.0"
     debug: "npm:4.3.4"
     dir-glob: "npm:3.0.1"
@@ -7187,7 +7186,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-join@npm:4.0.1, url-join@npm:^4.0.0":
+"url-join@npm:4.0.1":
   version: 4.0.1
   resolution: "url-join@npm:4.0.1"
   checksum: b53b256a9a36ed6b0f6768101e78ca97f32d7b935283fd29ce19d0bbfb6f88aa80aa6c03fd87f2f8978ab463a6539f597a63051e7086f3379685319a7495f709
