@@ -1069,7 +1069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:20.8.9":
+"@types/node@npm:*, @types/node@npm:20.8.9, @types/node@npm:^20.8.3":
   version: 20.8.9
   resolution: "@types/node@npm:20.8.9"
   dependencies:
@@ -6046,6 +6046,7 @@ __metadata:
     "@octokit/plugin-throttling": "npm:8.1.2"
     "@semantic-release/error": "npm:3.0.0"
     "@semantic-release/github": "npm:9.0.0"
+    "@types/node": "npm:^20.8.3"
     aggregate-error: "npm:3.1.0"
     debug: "npm:4.3.4"
     dir-glob: "npm:3.0.1"
