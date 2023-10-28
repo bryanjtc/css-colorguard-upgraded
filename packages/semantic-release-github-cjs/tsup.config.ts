@@ -3,7 +3,7 @@ import { defineConfig } from 'tsup';
 
 // eslint-disable-next-line import/no-default-export
 export default defineConfig({
-  entry: ['./src/index.js'],
+  entry: ['./src/index.ts'],
   minify: false,
   treeshake: false,
   target: 'node18',
