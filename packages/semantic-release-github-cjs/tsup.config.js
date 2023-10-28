@@ -9,6 +9,12 @@ export default defineConfig({
   target: 'node18',
   splitting: false,
   format: ['cjs'],
+  esbuildOptions(options) {
+    options.alias = {
+      'lodash-es': 'lodash',
+    }
+    options.external = ['lodash']
+  },
   // eslint-disable-next-line jsdoc/require-jsdoc
   outExtension({ format }) {
     return {
