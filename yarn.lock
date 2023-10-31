@@ -1795,7 +1795,7 @@ __metadata:
     colorguard-processor: "workspace:*"
     gitmojis: "npm:3.14.0"
     postcss: "npm:8.4.31"
-    semantic-release: "npm:22.0.5"
+    semantic-release: "npm:22.0.6"
     semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.5"
     semantic-release-monorepo: "npm:7.0.5"
@@ -1826,7 +1826,7 @@ __metadata:
     postcss: "npm:8.4.31"
     postcss-colorguard: "workspace:*"
     postcss-reporter: "npm:7.0.5"
-    semantic-release: "npm:22.0.5"
+    semantic-release: "npm:22.0.6"
     semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.5"
     semantic-release-monorepo: "npm:7.0.5"
@@ -2491,7 +2491,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escape-string-regexp@npm:5.0.0, escape-string-regexp@npm:^5.0.0":
+"escape-string-regexp@npm:5.0.0":
   version: 5.0.0
   resolution: "escape-string-regexp@npm:5.0.0"
   checksum: 20daabe197f3cb198ec28546deebcf24b3dbb1a5a269184381b3116d12f0532e06007f4bc8da25669d6a7f8efb68db0758df4cd981f57bc5b57f521a3e12c59e
@@ -2640,13 +2640,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"figures@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "figures@npm:5.0.0"
+"figures@npm:^6.0.0":
+  version: 6.0.1
+  resolution: "figures@npm:6.0.1"
   dependencies:
-    escape-string-regexp: "npm:^5.0.0"
-    is-unicode-supported: "npm:^1.2.0"
-  checksum: 951d18be2f450c90462c484eff9bda705293319bc2f17b250194a0cf1a291600db4cb283a6ce199d49380c95b08d85d822ce4b18d2f9242663fd5895476d667c
+    is-unicode-supported: "npm:^2.0.0"
+  checksum: 2fb988f01bed5ae6915a0593342f083bd1b09d0a6bf9aa58d0882c446cf13b59059f8a967acd676763278107b87b762231430d610d8f3be87c90ce87984a32a1
   languageName: node
   linkType: hard
 
@@ -3698,10 +3697,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is-unicode-supported@npm:^1.2.0, is-unicode-supported@npm:^1.3.0":
+"is-unicode-supported@npm:^1.3.0":
   version: 1.3.0
   resolution: "is-unicode-supported@npm:1.3.0"
   checksum: 20a1fc161afafaf49243551a5ac33b6c4cf0bbcce369fcd8f2951fbdd000c30698ce320de3ee6830497310a8f41880f8066d440aa3eb0a853e2aa4836dd89abc
+  languageName: node
+  linkType: hard
+
+"is-unicode-supported@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "is-unicode-supported@npm:2.0.0"
+  checksum: 000b80639dedaf59a385f1c0a57f97a4d1435e0723716f24cc19ad94253a7a0a9f838bdc9ac49b10a29ac93b01f52ae9b2ed358a8876caf1eb74d73b4ede92b2
   languageName: node
   linkType: hard
 
@@ -5348,7 +5354,7 @@ __metadata:
     color-rgba: "npm:3.0.0"
     gitmojis: "npm:3.14.0"
     postcss: "npm:8.4.31"
-    semantic-release: "npm:22.0.5"
+    semantic-release: "npm:22.0.6"
     semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.5"
     semantic-release-monorepo: "npm:7.0.5"
@@ -5868,7 +5874,7 @@ __metadata:
     "@semantic-release/npm": "npm:11.0.0"
     gitmojis: "npm:3.14.0"
     jshint: "npm:2.13.6"
-    semantic-release: "npm:22.0.5"
+    semantic-release: "npm:22.0.6"
     semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.5"
     semantic-release-monorepo: "npm:7.0.5"
@@ -5957,7 +5963,7 @@ __metadata:
     lodash: "npm:4.17.21"
     mime: "npm:3.0.0"
     p-filter: "npm:3.0.0"
-    semantic-release: "npm:22.0.5"
+    semantic-release: "npm:22.0.6"
     tsup: "npm:7.2.0"
     typescript: "npm:5.2.2"
     url-join: "npm:5.0.0"
@@ -6013,9 +6019,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release@npm:22.0.5":
-  version: 22.0.5
-  resolution: "semantic-release@npm:22.0.5"
+"semantic-release@npm:22.0.6":
+  version: 22.0.6
+  resolution: "semantic-release@npm:22.0.6"
   dependencies:
     "@semantic-release/commit-analyzer": "npm:^11.0.0"
     "@semantic-release/error": "npm:^4.0.0"
@@ -6027,7 +6033,7 @@ __metadata:
     debug: "npm:^4.0.0"
     env-ci: "npm:^10.0.0"
     execa: "npm:^8.0.0"
-    figures: "npm:^5.0.0"
+    figures: "npm:^6.0.0"
     find-versions: "npm:^5.1.0"
     get-stream: "npm:^6.0.0"
     git-log-parser: "npm:^1.2.0"
@@ -6047,7 +6053,7 @@ __metadata:
     yargs: "npm:^17.5.1"
   bin:
     semantic-release: bin/semantic-release.js
-  checksum: c8ec10d4a6df2091a8876aa682c9b343cb8905d4cc76ac0e70bbfec5fa5ef2aad338f48ee12919bfbeba19c06d8cb2f5ff3bc963970bafdb9b5708aadd64c8b1
+  checksum: b8f86553774d9e529b5715361c6042230ad79a383f8c9874472a26dffa54698e7a3c1879aeded0c60217a77fdfe8674c32033ef45c2f954e5fcb9923e2c882fa
   languageName: node
   linkType: hard
 
