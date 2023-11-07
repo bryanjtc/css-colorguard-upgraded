@@ -23,7 +23,7 @@
     },
     "devDependencies": {
         "@types/debug": "4.1.11",
-        "@types/dir-glob": "2.0.2",
+        "@types/dir-glob": "2.0.3",
         "@types/fs-extra": "11.0.3",
         "@types/issue-parser": "3.0.3",
         "@types/lodash": "4.14.200",
