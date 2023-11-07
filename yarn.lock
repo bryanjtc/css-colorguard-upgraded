@@ -1045,10 +1045,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/text-table@npm:0.2.4":
-  version: 0.2.4
-  resolution: "@types/text-table@npm:0.2.4"
-  checksum: 5cef3f5c7c197c8844452698b8074e6692884b3610210b5f23f323746dea16c150cd984d167db724e5fce626c6ce2f9c6a727edb5997cab03c68cc9ee98f1491
+"@types/text-table@npm:0.2.5":
+  version: 0.2.5
+  resolution: "@types/text-table@npm:0.2.5"
+  checksum: 4e96313dc25983868d84b75921c6159de569509921234c2c3bc8e2aac7963323f326b07d485d2c38342d5c1e7d2a0a39c2f3996b5f00f57af4b554b5d710f59d
   languageName: node
   linkType: hard
 
@@ -1843,7 +1843,7 @@ __metadata:
     "@types/node": "npm:20.8.10"
     "@types/postcss-reporter": "npm:7.0.5"
     "@types/tape": "npm:5.6.4"
-    "@types/text-table": "npm:0.2.4"
+    "@types/text-table": "npm:0.2.5"
     colorette: "npm:2.0.20"
     gitmojis: "npm:3.14.0"
     log-symbols: "npm:6.0.0"
