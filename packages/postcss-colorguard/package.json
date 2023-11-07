@@ -47,7 +47,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "11.0.1",
     "@types/color-diff": "1.2.4",
-    "@types/color-rgba": "2.1.1",
+    "@types/color-rgba": "2.1.2",
     "color-diff": "1.4.0",
     "color-rgba": "3.0.0",
     "gitmojis": "3.14.0",

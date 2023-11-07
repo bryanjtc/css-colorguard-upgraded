@@ -931,10 +931,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/color-rgba@npm:2.1.1":
-  version: 2.1.1
-  resolution: "@types/color-rgba@npm:2.1.1"
-  checksum: cf2ca3bf95fd954eef94a88fb9cabb463f146136696fe24dc0a12c109dc20d96a56103cc6b5ab3644230eafffe75c4bbfaa0460b61205318cc88eacc7c6f9791
+"@types/color-rgba@npm:2.1.2":
+  version: 2.1.2
+  resolution: "@types/color-rgba@npm:2.1.2"
+  checksum: 77eb1c77b4c7bca257539603f94123b5db7282230ad105b0b274f63a8472f22157c71bc8638844c16e2ec6fd7b5c28d450f620190a3ccdfdab8f45edb5771186
   languageName: node
   linkType: hard
 
@@ -5400,7 +5400,7 @@ __metadata:
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/npm": "npm:11.0.1"
     "@types/color-diff": "npm:1.2.4"
-    "@types/color-rgba": "npm:2.1.1"
+    "@types/color-rgba": "npm:2.1.2"
     color-diff: "npm:1.4.0"
     color-rgba: "npm:3.0.0"
     gitmojis: "npm:3.14.0"
