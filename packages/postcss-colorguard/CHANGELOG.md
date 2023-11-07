@@ -1,3 +1,9 @@
+# [postcss-colorguard-v2.0.2](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.1...postcss-colorguard-v2.0.2) (2023-11-07)
+
+### Others
+
+- ⬆️ [`9e75492`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/9e75492) build(deps): Update dependency @types/color-rgba to v2.1.2
+
 # [postcss-colorguard-v2.0.1](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.0...postcss-colorguard-v2.0.1) (2023-11-07)
 
 ### Others
