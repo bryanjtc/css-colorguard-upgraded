@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.2](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.1...colorguard-processor-v2.0.2) (2023-11-07)
+
+### Others
+
+- ⬆️ [`c71336c`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/c71336c) build(deps): Update dependency @types/postcss-reporter to v7.0.5
+
 # [colorguard-processor-v2.0.1](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.0...colorguard-processor-v2.0.1) (2023-10-31)
 
 ### Others
