@@ -947,10 +947,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/dir-glob@npm:2.0.2":
-  version: 2.0.2
-  resolution: "@types/dir-glob@npm:2.0.2"
-  checksum: b3621eab7ff9f9dd7d9d15113adff9e2877de0ffad5f88ed3fd013f36e78b2814e705eb07aec7819ab6c0c8539254754151162753e37fa6f6c5883c7fa2cbe92
+"@types/dir-glob@npm:2.0.3":
+  version: 2.0.3
+  resolution: "@types/dir-glob@npm:2.0.3"
+  checksum: f43352960d93d12cc8e440f4712ef2533f59e73c1d9fba46017e3c2bede948283b705627c24a7b2094e4e41d3bbe93f7919990cc533c59fcb136768d36811b1d
   languageName: node
   linkType: hard
 
@@ -6019,7 +6019,7 @@ __metadata:
     "@octokit/plugin-throttling": "npm:8.1.2"
     "@semantic-release/error": "npm:3.0.0"
     "@types/debug": "npm:4.1.11"
-    "@types/dir-glob": "npm:2.0.2"
+    "@types/dir-glob": "npm:2.0.3"
     "@types/fs-extra": "npm:11.0.3"
     "@types/issue-parser": "npm:3.0.3"
     "@types/lodash": "npm:4.14.200"
