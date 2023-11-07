@@ -1026,12 +1026,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/postcss-reporter@npm:7.0.4":
-  version: 7.0.4
-  resolution: "@types/postcss-reporter@npm:7.0.4"
+"@types/postcss-reporter@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@types/postcss-reporter@npm:7.0.5"
   dependencies:
     postcss: "npm:^8.2.10"
-  checksum: f2db5db9a9c000e587eeb6eaa82c49eb7bcf7e00e1122c510250ef6197191813feb755e1b53313b5f9d6776e5219937d0548ddd8b95a894df2d008d5f4660bfa
+  checksum: 1c6259171c1ade13f1beb9bafa55827114606eb3d4b142181ab7826ff231508944731274f0e89a29c92518555560afb1c0a044dcdd23be49d36dc8440d016103
   languageName: node
   linkType: hard
 
@@ -1841,7 +1841,7 @@ __metadata:
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/npm": "npm:11.0.1"
     "@types/node": "npm:20.8.10"
-    "@types/postcss-reporter": "npm:7.0.4"
+    "@types/postcss-reporter": "npm:7.0.5"
     "@types/tape": "npm:5.6.3"
     "@types/text-table": "npm:0.2.4"
     colorette: "npm:2.0.20"
