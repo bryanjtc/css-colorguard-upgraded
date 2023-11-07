@@ -964,10 +964,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/issue-parser@npm:3.0.3":
-  version: 3.0.3
-  resolution: "@types/issue-parser@npm:3.0.3"
-  checksum: 8c444a1cada2b6e00315fbcc72d890aa121b94e3460154a2eedcbfdaf10c4a267ab9bb4b0976f5bc908f41d02b137cdfdc0127216ba1177948c24d70ea4e286c
+"@types/issue-parser@npm:3.0.4":
+  version: 3.0.4
+  resolution: "@types/issue-parser@npm:3.0.4"
+  checksum: 0320e0e7632396d343f014d1c3c55bd31d6f766f53ab3ab6929a86af13449d4c420bba752e27b523695a6dc10f67670304fd42d581c26ae7eef37c7752b8dd8d
   languageName: node
   linkType: hard
 
@@ -6021,7 +6021,7 @@ __metadata:
     "@types/debug": "npm:4.1.11"
     "@types/dir-glob": "npm:2.0.3"
     "@types/fs-extra": "npm:11.0.3"
-    "@types/issue-parser": "npm:3.0.3"
+    "@types/issue-parser": "npm:3.0.4"
     "@types/lodash": "npm:4.14.200"
     "@types/mime": "npm:3.0.3"
     "@types/node": "npm:20.8.10"
