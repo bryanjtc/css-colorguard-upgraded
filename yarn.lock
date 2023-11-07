@@ -1035,13 +1035,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:5.6.3":
-  version: 5.6.3
-  resolution: "@types/tape@npm:5.6.3"
+"@types/tape@npm:5.6.4":
+  version: 5.6.4
+  resolution: "@types/tape@npm:5.6.4"
   dependencies:
     "@types/node": "npm:*"
     "@types/through": "npm:*"
-  checksum: c25ac572c3b45f35731ec8356bf8098c63eabc8a42cdc7b1126df4f12a48c64471ede36c59c1afbb813bd8eb8db2cf471ac472f91cfc765cd0d31259b815450f
+  checksum: 5f41c97bfbef1882efcf16f2335f34f16d1df7bf6045d36ba7b5a416f3364f132000dd2c2c2ba69c152656b7e6a8d9e74fbbec348af426e165f4aa8860ab3eeb
   languageName: node
   linkType: hard
 
@@ -1842,7 +1842,7 @@ __metadata:
     "@semantic-release/npm": "npm:11.0.1"
     "@types/node": "npm:20.8.10"
     "@types/postcss-reporter": "npm:7.0.5"
-    "@types/tape": "npm:5.6.3"
+    "@types/tape": "npm:5.6.4"
     "@types/text-table": "npm:0.2.4"
     colorette: "npm:2.0.20"
     gitmojis: "npm:3.14.0"
