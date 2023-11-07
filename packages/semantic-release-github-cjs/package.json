@@ -22,7 +22,7 @@
         "semantic-release": ">= 19"
     },
     "devDependencies": {
-        "@types/debug": "4.1.10",
+        "@types/debug": "4.1.11",
         "@types/dir-glob": "2.0.2",
         "@types/fs-extra": "11.0.3",
         "@types/issue-parser": "3.0.3",
