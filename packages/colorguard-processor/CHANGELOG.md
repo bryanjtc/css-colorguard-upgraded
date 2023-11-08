@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.4](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.3...colorguard-processor-v2.0.4) (2023-11-08)
+
+### Others
+
+- ⬆️ [`81ba733`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/81ba733) build(deps): Update dependency @types/text-table to v0.2.5
+
 # [colorguard-processor-v2.0.3](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.2...colorguard-processor-v2.0.3) (2023-11-07)
 
 ### Others
