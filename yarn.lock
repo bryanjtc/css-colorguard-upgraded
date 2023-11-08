@@ -987,10 +987,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mime@npm:3.0.3":
-  version: 3.0.3
-  resolution: "@types/mime@npm:3.0.3"
-  checksum: d905a6b4736cc60fb56b39776b77ba0e10983d39f0aefc0034dc895b6ef90780e2f2e0a8c576539adb2963741a5aa67a6924d8940b0f7250f69e3e68a57f93b5
+"@types/mime@npm:3.0.4":
+  version: 3.0.4
+  resolution: "@types/mime@npm:3.0.4"
+  checksum: a6139c8e1f705ef2b064d072f6edc01f3c099023ad7c4fce2afc6c2bf0231888202adadbdb48643e8e20da0ce409481a49922e737eca52871b3dc08017455843
   languageName: node
   linkType: hard
 
@@ -6023,7 +6023,7 @@ __metadata:
     "@types/fs-extra": "npm:11.0.4"
     "@types/issue-parser": "npm:3.0.4"
     "@types/lodash": "npm:4.14.201"
-    "@types/mime": "npm:3.0.3"
+    "@types/mime": "npm:3.0.4"
     "@types/node": "npm:20.8.10"
     "@types/url-join": "npm:4.0.2"
     aggregate-error: "npm:3.1.0"
