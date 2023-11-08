@@ -1061,10 +1061,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/url-join@npm:4.0.2":
-  version: 4.0.2
-  resolution: "@types/url-join@npm:4.0.2"
-  checksum: 0ee32c987fef3fedfc50d0ed41725f8322ccecf4ef5f495e016762b9489cee2331dd989765181dce050607f847994e909139d86847fc7e2b552dead3884ae6fd
+"@types/url-join@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@types/url-join@npm:4.0.3"
+  checksum: 21b5145159e90b1b060a82d67e3ef7270879ac3a8652f9f38f0017e930905b90fa59e758555ae79d33a47586f07347904209dc665604825d3abc47e6d2e14dca
   languageName: node
   linkType: hard
 
@@ -6025,7 +6025,7 @@ __metadata:
     "@types/lodash": "npm:4.14.201"
     "@types/mime": "npm:3.0.4"
     "@types/node": "npm:20.8.10"
-    "@types/url-join": "npm:4.0.2"
+    "@types/url-join": "npm:4.0.3"
     aggregate-error: "npm:3.1.0"
     debug: "npm:4.3.4"
     dir-glob: "npm:3.0.1"
