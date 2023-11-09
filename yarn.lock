@@ -3058,7 +3058,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globby@npm:11.1.0, globby@npm:^11.0.3":
+"globby@npm:13.2.2, globby@npm:^13.1.4":
+  version: 13.2.2
+  resolution: "globby@npm:13.2.2"
+  dependencies:
+    dir-glob: "npm:^3.0.1"
+    fast-glob: "npm:^3.3.0"
+    ignore: "npm:^5.2.4"
+    merge2: "npm:^1.4.1"
+    slash: "npm:^4.0.0"
+  checksum: 4494a9d2162a7e4d327988b26be66d8eab87d7f59a83219e74b065e2c3ced23698f68fb10482bf9337133819281803fb886d6ae06afbb2affa743623eb0b1949
+  languageName: node
+  linkType: hard
+
+"globby@npm:^11.0.3":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -3069,19 +3082,6 @@ __metadata:
     merge2: "npm:^1.4.1"
     slash: "npm:^3.0.0"
   checksum: 288e95e310227bbe037076ea81b7c2598ccbc3122d87abc6dab39e1eec309aa14f0e366a98cdc45237ffcfcbad3db597778c0068217dcb1950fef6249104e1b1
-  languageName: node
-  linkType: hard
-
-"globby@npm:^13.1.4":
-  version: 13.2.2
-  resolution: "globby@npm:13.2.2"
-  dependencies:
-    dir-glob: "npm:^3.0.1"
-    fast-glob: "npm:^3.3.0"
-    ignore: "npm:^5.2.4"
-    merge2: "npm:^1.4.1"
-    slash: "npm:^4.0.0"
-  checksum: 4494a9d2162a7e4d327988b26be66d8eab87d7f59a83219e74b065e2c3ced23698f68fb10482bf9337133819281803fb886d6ae06afbb2affa743623eb0b1949
   languageName: node
   linkType: hard
 
@@ -6050,7 +6050,7 @@ __metadata:
     debug: "npm:4.3.4"
     dir-glob: "npm:3.0.1"
     fs-extra: "npm:11.1.1"
-    globby: "npm:11.1.0"
+    globby: "npm:13.2.2"
     http-proxy-agent: "npm:7.0.0"
     https-proxy-agent: "npm:7.0.2"
     issue-parser: "npm:6.0.0"
