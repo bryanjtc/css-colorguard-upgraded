@@ -1,3 +1,9 @@
+# [postcss-colorguard-v2.0.3](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.2...postcss-colorguard-v2.0.3) (2023-11-20)
+
+### Others
+
+- ⬆️ [`876bb18`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/876bb18) build(deps): Update dependency typescript to v5.3.2
+
 # [postcss-colorguard-v2.0.2](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.1...postcss-colorguard-v2.0.2) (2023-11-07)
 
 ### Others
