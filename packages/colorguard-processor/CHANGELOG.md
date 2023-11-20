@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.8](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.7...colorguard-processor-v2.0.8) (2023-11-20)
+
+### Others
+
+- ⬆️ [`876bb18`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/876bb18) build(deps): Update dependency typescript to v5.3.2
+
 # [colorguard-processor-v2.0.7](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.6...colorguard-processor-v2.0.7) (2023-11-19)
 
 ### Others
