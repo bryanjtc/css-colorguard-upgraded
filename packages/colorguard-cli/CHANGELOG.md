@@ -1,3 +1,9 @@
+# [colorguard-cli-v2.0.5](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.4...colorguard-cli-v2.0.5) (2023-11-20)
+
+### Others
+
+- ⬆️ [`876bb18`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/876bb18) build(deps): Update dependency typescript to v5.3.2
+
 # [colorguard-cli-v2.0.4](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.3...colorguard-cli-v2.0.4) (2023-11-19)
 
 ### Others
