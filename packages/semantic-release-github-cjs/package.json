@@ -25,7 +25,7 @@
         "@types/debug": "4.1.12",
         "@types/dir-glob": "2.0.3",
         "@types/fs-extra": "11.0.4",
-        "@types/issue-parser": "3.0.4",
+        "@types/issue-parser": "3.0.5",
         "@types/lodash": "4.14.201",
         "@types/mime": "3.0.4",
         "@types/node": "20.9.3",
