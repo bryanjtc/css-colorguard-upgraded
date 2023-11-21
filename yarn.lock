@@ -1040,10 +1040,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/color-diff@npm:1.2.4":
-  version: 1.2.4
-  resolution: "@types/color-diff@npm:1.2.4"
-  checksum: acdd72eb30b2f6a2fcf8a90e0fde8b53dee82c491157e6f38de5eb89a44b2b3660ecad5ebb430565ed892a439a494839c9c55c9403e27ef0369fdb677257f91f
+"@types/color-diff@npm:1.2.5":
+  version: 1.2.5
+  resolution: "@types/color-diff@npm:1.2.5"
+  checksum: e457b6feafabe6d7bd96bc6092ab090d870a77bd6c2cf863fd486176e82f3a89abe65cf69801528229a642f39d285ee465ff25fd7ed095c574f00cd1c7611d0f
   languageName: node
   linkType: hard
 
@@ -5515,7 +5515,7 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/npm": "npm:11.0.1"
-    "@types/color-diff": "npm:1.2.4"
+    "@types/color-diff": "npm:1.2.5"
     "@types/color-rgba": "npm:2.1.2"
     color-diff: "npm:1.4.0"
     color-rgba: "npm:3.0.0"
