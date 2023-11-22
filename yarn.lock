@@ -538,7 +538,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/core@npm:5.0.1, @octokit/core@npm:^5.0.0":
+"@octokit/core@npm:5.0.2":
+  version: 5.0.2
+  resolution: "@octokit/core@npm:5.0.2"
+  dependencies:
+    "@octokit/auth-token": "npm:^4.0.0"
+    "@octokit/graphql": "npm:^7.0.0"
+    "@octokit/request": "npm:^8.0.2"
+    "@octokit/request-error": "npm:^5.0.0"
+    "@octokit/types": "npm:^12.0.0"
+    before-after-hook: "npm:^2.2.0"
+    universal-user-agent: "npm:^6.0.0"
+  checksum: bb991f88793fab043c4c09f9441432596fe0e6448caf42cd2209f52c1f26807418be488ad2cea7a8293e58e79e5c0019f38dda46e8cf96af5e89e43cca37ec3e
+  languageName: node
+  linkType: hard
+
+"@octokit/core@npm:^5.0.0":
   version: 5.0.1
   resolution: "@octokit/core@npm:5.0.1"
   dependencies:
@@ -6165,7 +6180,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs"
   dependencies:
-    "@octokit/core": "npm:5.0.1"
+    "@octokit/core": "npm:5.0.2"
     "@octokit/plugin-paginate-rest": "npm:9.1.4"
     "@octokit/plugin-retry": "npm:6.0.1"
     "@octokit/plugin-throttling": "npm:8.1.3"
