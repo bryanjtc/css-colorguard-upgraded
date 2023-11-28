@@ -2878,7 +2878,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:11.1.1, fs-extra@npm:^11.0.0":
+"fs-extra@npm:11.2.0":
+  version: 11.2.0
+  resolution: "fs-extra@npm:11.2.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 0579bf6726a4cd054d4aa308f10b483f52478bb16284f32cf60b4ce0542063d551fca1a08a2af365e35db21a3fa5a06cf2a6ed614004b4368982bc754cb816b3
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^11.0.0":
   version: 11.1.1
   resolution: "fs-extra@npm:11.1.1"
   dependencies:
@@ -6196,7 +6207,7 @@ __metadata:
     aggregate-error: "npm:3.1.0"
     debug: "npm:4.3.4"
     dir-glob: "npm:3.0.1"
-    fs-extra: "npm:11.1.1"
+    fs-extra: "npm:11.2.0"
     globby: "npm:11.1.0"
     http-proxy-agent: "npm:7.0.0"
     https-proxy-agent: "npm:7.0.2"
