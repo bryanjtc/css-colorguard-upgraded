@@ -5202,12 +5202,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-filter@npm:4.0.0":
-  version: 4.0.0
-  resolution: "p-filter@npm:4.0.0"
+"p-filter@npm:4.1.0":
+  version: 4.1.0
+  resolution: "p-filter@npm:4.1.0"
   dependencies:
-    p-map: "npm:^7.0.0"
-  checksum: f86953c2c03e014e4284133d060c7788f60b1841c605ff4c29e52789e877eadbb718831b16e4ae7ee9170ae894633f3d557a2a4f151ce5f96045046ada04811e
+    p-map: "npm:^7.0.1"
+  checksum: a8c783f6f783d2cf2b1b23f128576abee9545942961d1a242d0bb673eaf5390e51acd887d526e468d23fb08546ba7c958222464e75a25ac502f2951aeffcbb72
   languageName: node
   linkType: hard
 
@@ -5288,10 +5288,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-map@npm:^7.0.0":
-  version: 7.0.0
-  resolution: "p-map@npm:7.0.0"
-  checksum: 2ff3cdf6de518e5c714172ed704bb567b097f94d3ee865e92fbe110e038322826d48205c779b5e35062568815b2a1e7d75928d7c74ce8d3840aa820c10ce32ca
+"p-map@npm:^7.0.1":
+  version: 7.0.1
+  resolution: "p-map@npm:7.0.1"
+  checksum: df984b759764ebb268887ac0dec9f4b9c29c89dffb66cb001f31cab8a204db26e0f044783bc39ae1c225e2c0ad0b9c4d70a0ef8219dbb2588dc715d11cec433b
   languageName: node
   linkType: hard
 
@@ -6246,7 +6246,7 @@ __metadata:
     issue-parser: "npm:6.0.0"
     lodash: "npm:4.17.21"
     mime: "npm:3.0.0"
-    p-filter: "npm:4.0.0"
+    p-filter: "npm:4.1.0"
     semantic-release: "npm:22.0.7"
     tsup: "npm:8.0.1"
     typescript: "npm:5.3.3"
