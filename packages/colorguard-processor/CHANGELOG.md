@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.23](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.22...colorguard-processor-v2.0.23) (2024-01-13)
+
+### Others
+
+- ⬆️ [`e4be44d`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e4be44d) build(deps): Update dependency tape to v5.7.3
+
 # [colorguard-processor-v2.0.22](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.21...colorguard-processor-v2.0.22) (2024-01-11)
 
 ### Others
