@@ -2003,7 +2003,7 @@ __metadata:
     semantic-release-gitmoji: "npm:1.6.5"
     semantic-release-monorepo: "npm:7.0.5"
     tap-spec: "npm:5.0.0"
-    tape: "npm:5.7.2"
+    tape: "npm:5.7.3"
     text-table: "npm:0.2.0"
     tsup: "npm:8.0.1"
     typescript: "npm:5.3.3"
@@ -2229,14 +2229,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"deep-equal@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "deep-equal@npm:2.2.2"
+"deep-equal@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "deep-equal@npm:2.2.3"
   dependencies:
     array-buffer-byte-length: "npm:^1.0.0"
-    call-bind: "npm:^1.0.2"
+    call-bind: "npm:^1.0.5"
     es-get-iterator: "npm:^1.1.3"
-    get-intrinsic: "npm:^1.2.1"
+    get-intrinsic: "npm:^1.2.2"
     is-arguments: "npm:^1.1.1"
     is-array-buffer: "npm:^3.0.2"
     is-date-object: "npm:^1.0.5"
@@ -2246,12 +2246,12 @@ __metadata:
     object-is: "npm:^1.1.5"
     object-keys: "npm:^1.1.1"
     object.assign: "npm:^4.1.4"
-    regexp.prototype.flags: "npm:^1.5.0"
+    regexp.prototype.flags: "npm:^1.5.1"
     side-channel: "npm:^1.0.4"
     which-boxed-primitive: "npm:^1.0.2"
     which-collection: "npm:^1.0.1"
-    which-typed-array: "npm:^1.1.9"
-  checksum: 883cb8b3cf10d387ce8fb191f7d7b46b48022e00810074c5629053953aa3be5c5890dd40d30d31d27fb140af9a541c06c852ab5d28f76b07095c9d28e3c4b04f
+    which-typed-array: "npm:^1.1.13"
+  checksum: 1ce49d0b71d0f14d8ef991a742665eccd488dfc9b3cada069d4d7a86291e591c92d2589c832811dea182b4015736b210acaaebce6184be356c1060d176f5a05f
   languageName: node
   linkType: hard
 
@@ -2282,7 +2282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"define-properties@npm:^1.1.3, define-properties@npm:^1.1.4, define-properties@npm:^1.2.0":
+"define-properties@npm:^1.1.3, define-properties@npm:^1.1.4, define-properties@npm:^1.2.0, define-properties@npm:^1.2.1":
   version: 1.2.1
   resolution: "define-properties@npm:1.2.1"
   dependencies:
@@ -4717,7 +4717,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mock-property@npm:^1.0.2":
+"mock-property@npm:^1.0.3":
   version: 1.0.3
   resolution: "mock-property@npm:1.0.3"
   dependencies:
@@ -5165,6 +5165,18 @@ __metadata:
     has-symbols: "npm:^1.0.3"
     object-keys: "npm:^1.1.1"
   checksum: fd82d45289df0a952d772817622ecbaeb4ec933d3abb53267aede083ee38f6a395af8fadfbc569ee575115b0b7c9b286e7cfb2b7a2557b1055f7acbce513bc29
+  languageName: node
+  linkType: hard
+
+"object.assign@npm:^4.1.5":
+  version: 4.1.5
+  resolution: "object.assign@npm:4.1.5"
+  dependencies:
+    call-bind: "npm:^1.0.5"
+    define-properties: "npm:^1.2.1"
+    has-symbols: "npm:^1.0.3"
+    object-keys: "npm:^1.1.1"
+  checksum: dbb22da4cda82e1658349ea62b80815f587b47131b3dd7a4ab7f84190ab31d206bbd8fe7e26ae3220c55b65725ac4529825f6142154211220302aa6b1518045d
   languageName: node
   linkType: hard
 
@@ -5973,7 +5985,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regexp.prototype.flags@npm:^1.5.0, regexp.prototype.flags@npm:^1.5.1":
+"regexp.prototype.flags@npm:^1.5.1":
   version: 1.5.1
   resolution: "regexp.prototype.flags@npm:1.5.1"
   dependencies:
@@ -6944,15 +6956,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.7.2":
-  version: 5.7.2
-  resolution: "tape@npm:5.7.2"
+"tape@npm:5.7.3":
+  version: 5.7.3
+  resolution: "tape@npm:5.7.3"
   dependencies:
     "@ljharb/resumer": "npm:^0.0.1"
     "@ljharb/through": "npm:^2.3.11"
     array.prototype.every: "npm:^1.1.5"
     call-bind: "npm:^1.0.5"
-    deep-equal: "npm:^2.2.2"
+    deep-equal: "npm:^2.2.3"
     defined: "npm:^1.0.1"
     dotignore: "npm:^0.1.2"
     for-each: "npm:^0.3.3"
@@ -6963,16 +6975,16 @@ __metadata:
     inherits: "npm:^2.0.4"
     is-regex: "npm:^1.1.4"
     minimist: "npm:^1.2.8"
-    mock-property: "npm:^1.0.2"
+    mock-property: "npm:^1.0.3"
     object-inspect: "npm:^1.13.1"
     object-is: "npm:^1.1.5"
     object-keys: "npm:^1.1.1"
-    object.assign: "npm:^4.1.4"
+    object.assign: "npm:^4.1.5"
     resolve: "npm:^2.0.0-next.5"
     string.prototype.trim: "npm:^1.2.8"
   bin:
     tape: bin/tape
-  checksum: b9014d982bfa4dbb98560adb15d795785885aee0c5ba74a76d4d95f6b77a4ffe81e82d6af395ecd45f44d5ea1ab4262542b8388119bbafd5b08b6040d0d946d8
+  checksum: beeef5c2ac22df0a76aa79336fef089a73c55dee0fecdd14a7b5223ed5fb01082df36c3276bf27ed7d61ce25ef9d15c7d2a8fc4de17e6c4a39ec955391888d16
   languageName: node
   linkType: hard
 
@@ -7465,7 +7477,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-typed-array@npm:^1.1.11, which-typed-array@npm:^1.1.13, which-typed-array@npm:^1.1.9":
+"which-typed-array@npm:^1.1.11, which-typed-array@npm:^1.1.13":
   version: 1.1.13
   resolution: "which-typed-array@npm:1.1.13"
   dependencies:
