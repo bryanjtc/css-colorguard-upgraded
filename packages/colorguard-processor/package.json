@@ -54,7 +54,7 @@
     "plur": "5.1.0",
     "postcss": "8.4.31",
     "postcss-colorguard": "workspace:*",
-    "postcss-reporter": "7.0.5",
+    "postcss-reporter": "7.1.0",
     "semantic-release": "22.0.7",
     "semantic-release-github-cjs": "workspace:*",
     "semantic-release-gitmoji": "1.6.5",
