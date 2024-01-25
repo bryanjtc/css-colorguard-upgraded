@@ -2003,7 +2003,7 @@ __metadata:
     semantic-release-gitmoji: "npm:1.6.5"
     semantic-release-monorepo: "npm:7.0.8"
     tap-spec: "npm:5.0.0"
-    tape: "npm:5.7.3"
+    tape: "npm:5.7.4"
     text-table: "npm:0.2.0"
     tsup: "npm:8.0.1"
     typescript: "npm:5.3.3"
@@ -3321,13 +3321,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"has-dynamic-import@npm:^2.0.1":
-  version: 2.0.1
-  resolution: "has-dynamic-import@npm:2.0.1"
+"has-dynamic-import@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "has-dynamic-import@npm:2.1.0"
   dependencies:
-    call-bind: "npm:^1.0.2"
-    get-intrinsic: "npm:^1.1.1"
-  checksum: 518f474357cc77118682eafae93ee63007f1d8a580b14cb815088bd407e7e8d1c27b47147b5fba6af47c3181b45fbfd3d7cf57704be723f4ef9f922bc334415c
+    call-bind: "npm:^1.0.5"
+    get-intrinsic: "npm:^1.2.2"
+  checksum: 11a36cb1148786df1830722f226af28d9ec92b2a8a5374a9775348b855b3dba7a81eff54b7ddc551f05722cad1e643f5c28cff51e72ea032a40d7010c5e7fa6b
   languageName: node
   linkType: hard
 
@@ -7024,9 +7024,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tape@npm:5.7.3":
-  version: 5.7.3
-  resolution: "tape@npm:5.7.3"
+"tape@npm:5.7.4":
+  version: 5.7.4
+  resolution: "tape@npm:5.7.4"
   dependencies:
     "@ljharb/resumer": "npm:^0.0.1"
     "@ljharb/through": "npm:^2.3.11"
@@ -7038,7 +7038,7 @@ __metadata:
     for-each: "npm:^0.3.3"
     get-package-type: "npm:^0.1.0"
     glob: "npm:^7.2.3"
-    has-dynamic-import: "npm:^2.0.1"
+    has-dynamic-import: "npm:^2.1.0"
     hasown: "npm:^2.0.0"
     inherits: "npm:^2.0.4"
     is-regex: "npm:^1.1.4"
@@ -7052,7 +7052,7 @@ __metadata:
     string.prototype.trim: "npm:^1.2.8"
   bin:
     tape: bin/tape
-  checksum: beeef5c2ac22df0a76aa79336fef089a73c55dee0fecdd14a7b5223ed5fb01082df36c3276bf27ed7d61ce25ef9d15c7d2a8fc4de17e6c4a39ec955391888d16
+  checksum: 6da84a5f23a1738d852973d85d73d0f596fde19ace4943fd80258510bf147934cfb650a6c93c75b243981c2bfef118877c98bea109325d88df5e333ce6c71c38
   languageName: node
   linkType: hard
 
