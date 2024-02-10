@@ -32,7 +32,7 @@
         "@types/url-join": "4.0.3",
         "p-filter": "4.1.0",
         "semantic-release": "22.0.7",
-        "tsup": "8.0.1",
+        "tsup": "8.0.2",
         "typescript": "5.3.3",
         "url-join": "5.0.0"
     },
