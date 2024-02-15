@@ -5,7 +5,7 @@ import { gitmojis } from 'gitmojis';
 const template = readFile(join(__dirname, 'default-template.hbs'));
 const commitTemplate = readFile(join(__dirname, 'commit-template.hbs'));
 
-const config = {
+export default {
   extends: 'semantic-release-monorepo',
   branches: ['master'],
   plugins: [
@@ -67,6 +67,3 @@ const config = {
     ],
   ],
 };
-
-export default config;
-
