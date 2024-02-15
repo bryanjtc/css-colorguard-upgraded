@@ -1,16 +1,17 @@
 import { readFile } from 'fs/promises';
 import { join } from 'path';
 import { gitmojis } from 'gitmojis';
+import { createRequire } from 'module';
 
 const template = readFile(join(__dirname, 'default-template.hbs'));
 const commitTemplate = readFile(join(__dirname, 'commit-template.hbs'));
+const newRequire = createRequire(import.meta.url);
 
 export default {
-  extends: 'semantic-release-monorepo',
   branches: ['master'],
   plugins: [
     [
-      'semantic-release-gitmoji',
+      newRequire.resolve('semantic-release-gitmoji'),
       {
         releaseRules: {
           major: gitmojis.filter(({ semver }) => semver === 'major').map(({ code }) => code),
@@ -48,18 +49,18 @@ export default {
         },
       },
     ],
-    '@semantic-release/changelog',
+    newRequire.resolve('@semantic-release/changelog'),
     [
-      '@semantic-release/exec',
+      newRequire.resolve('@semantic-release/exec'),
       {
         prepareCmd:
           "yarn version ${nextRelease.version} && echo '::set-output name=version::${nextRelease.version}'",
         publishCmd: 'yarn npm publish --access public',
       },
     ],
-    'semantic-release-github',
+    newRequire.resolve('semantic-release-github'),
     [
-      '@semantic-release/git',
+      newRequire.resolve('@semantic-release/git'),
       {
         message:
           '🚀 RELEASE: chore(release) - ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
