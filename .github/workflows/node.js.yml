@@ -33,3 +33,4 @@ jobs:
           yarn workspace colorguard-cli build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
