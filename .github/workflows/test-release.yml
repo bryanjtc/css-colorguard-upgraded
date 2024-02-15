@@ -32,7 +32,7 @@ jobs:
           yarn workspace colorguard-cli build
       - name: Semantic Release dry run
         id: dry-release
-        run: unset GITHUB_ACTIONS && yarn workspaces foreach -W --no-private --topological-dev run semantic-release --dry-run --no-ci --branches ${HEAD_REF} -e semantic-release-monorepo
+        run: unset GITHUB_ACTIONS && DEBUG=import-from-esm yarn workspaces foreach -W --no-private --topological-dev run semantic-release --dry-run --no-ci --branches ${HEAD_REF} -e semantic-release-monorepo
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
