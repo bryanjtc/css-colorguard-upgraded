@@ -3507,13 +3507,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"http-proxy-agent@npm:7.0.1":
-  version: 7.0.1
-  resolution: "http-proxy-agent@npm:7.0.1"
+"http-proxy-agent@npm:7.0.2":
+  version: 7.0.2
+  resolution: "http-proxy-agent@npm:7.0.2"
   dependencies:
     agent-base: "npm:^7.1.0"
     debug: "npm:^4.3.4"
-  checksum: 10/d82c1cde756b8e1a0464f1e3761fe98a4b62ccde09a84f225ae61e1ec6c6321aad714ce7f8a05e4bee38cab7c4bc688e1bd1b8463ff879b433a097f485675ba2
+  checksum: 10/d062acfa0cb82beeb558f1043c6ba770ea892b5fb7b28654dbc70ea2aeea55226dd34c02a294f6c1ca179a5aa483c4ea641846821b182edbd9cc5d89b54c6848
   languageName: node
   linkType: hard
 
@@ -6426,7 +6426,7 @@ __metadata:
     dir-glob: "npm:3.0.1"
     fs-extra: "npm:11.2.0"
     globby: "npm:11.1.0"
-    http-proxy-agent: "npm:7.0.1"
+    http-proxy-agent: "npm:7.0.2"
     https-proxy-agent: "npm:7.0.3"
     issue-parser: "npm:6.0.0"
     lodash: "npm:4.17.21"
