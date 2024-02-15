@@ -1,6 +1,6 @@
 {
   "name": "colorguard-cli",
-  "version": "2.0.37",
+  "version": "2.0.38",
   "description": "CLI to keep a watchful eye on your css colors",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -39,7 +39,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "11.0.2",
-    "@types/node": "20.11.18",
+    "@types/node": "20.11.19",
     "@types/yargs": "17.0.17",
     "colorguard-processor": "workspace:*",
     "gitmojis": "3.14.0",
