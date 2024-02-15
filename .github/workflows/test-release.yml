@@ -35,4 +35,5 @@ jobs:
         run: unset GITHUB_ACTIONS && yarn workspaces foreach -W --no-private --topological-dev run semantic-release --dry-run --no-ci --branches ${HEAD_REF}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           HEAD_REF: ${{ github.head_ref }}
