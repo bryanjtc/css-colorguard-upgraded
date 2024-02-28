@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.47](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.46...colorguard-processor-v2.0.47) (2024-02-28)
+
+### Others
+
+- ⬆️ [`975fd1d`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/975fd1d) build(deps): Update dependency @types/node to v20.11.21
+
 # [colorguard-processor-v2.0.46](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.45...colorguard-processor-v2.0.46) (2024-02-22)
 
 ### Others
