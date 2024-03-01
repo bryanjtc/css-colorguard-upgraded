@@ -604,14 +604,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-paginate-rest@npm:9.2.0":
-  version: 9.2.0
-  resolution: "@octokit/plugin-paginate-rest@npm:9.2.0"
+"@octokit/plugin-paginate-rest@npm:9.2.1":
+  version: 9.2.1
+  resolution: "@octokit/plugin-paginate-rest@npm:9.2.1"
   dependencies:
     "@octokit/types": "npm:^12.6.0"
   peerDependencies:
-    "@octokit/core": ">=5"
-  checksum: 10/dfaddf1e6abc52ae8ee675a7812455a1c3db471a3f6d124d9cd9a033cb4d4df91361a113577a2eee86d452fd9c281ec9d95b7ae5d45eff3c30bda9c33600518f
+    "@octokit/core": 5
+  checksum: 10/1528ab17eedb6705e30ad8576493f06b40f29a87c920a4affeb9715fe5f386e064b79eadd401c0cd1e7ec22287a461da4f5353a4ee57bc614fd890b0aa139d77
   languageName: node
   linkType: hard
 
@@ -6409,7 +6409,7 @@ __metadata:
   resolution: "semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs"
   dependencies:
     "@octokit/core": "npm:5.1.0"
-    "@octokit/plugin-paginate-rest": "npm:9.2.0"
+    "@octokit/plugin-paginate-rest": "npm:9.2.1"
     "@octokit/plugin-retry": "npm:6.0.1"
     "@octokit/plugin-throttling": "npm:8.2.0"
     "@semantic-release/error": "npm:3.0.0"
