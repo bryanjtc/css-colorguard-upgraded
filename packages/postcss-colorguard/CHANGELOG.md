@@ -1,3 +1,9 @@
+# [postcss-colorguard-v2.0.8](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.7...postcss-colorguard-v2.0.8) (2024-03-07)
+
+### Others
+
+- ⬆️ [`2db2bab`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/2db2bab) build(deps): Update dependency typescript to v5.4.2
+
 # [postcss-colorguard-v2.0.7](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.6...postcss-colorguard-v2.0.7) (2024-02-07)
 
 ### Others
