@@ -1,3 +1,9 @@
+# [colorguard-cli-v2.0.44](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.43...colorguard-cli-v2.0.44) (2024-03-07)
+
+### Others
+
+- ⬆️ [`2db2bab`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/2db2bab) build(deps): Update dependency typescript to v5.4.2
+
 # [colorguard-cli-v2.0.43](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.42...colorguard-cli-v2.0.43) (2024-03-06)
 
 ### Others
