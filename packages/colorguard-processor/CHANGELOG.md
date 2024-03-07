@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.51](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.50...colorguard-processor-v2.0.51) (2024-03-07)
+
+### Others
+
+- ⬆️ [`2db2bab`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/2db2bab) build(deps): Update dependency typescript to v5.4.2
+
 # [colorguard-processor-v2.0.50](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.49...colorguard-processor-v2.0.50) (2024-03-06)
 
 ### Others
