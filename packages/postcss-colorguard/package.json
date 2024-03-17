@@ -51,7 +51,7 @@
     "color-diff": "1.4.0",
     "color-rgba": "3.0.0",
     "gitmojis": "3.14.0",
-    "postcss": "8.4.35",
+    "postcss": "8.4.36",
     "semantic-release": "22.0.7",
     "semantic-release-github-cjs": "workspace:*",
     "semantic-release-gitmoji": "1.6.5",
