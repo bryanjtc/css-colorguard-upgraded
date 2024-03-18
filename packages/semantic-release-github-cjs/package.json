@@ -28,7 +28,7 @@
         "@types/issue-parser": "3.0.5",
         "@types/lodash": "4.17.0",
         "@types/mime": "3.0.4",
-        "@types/node": "20.11.28",
+        "@types/node": "20.11.29",
         "@types/url-join": "4.0.3",
         "p-filter": "4.1.0",
         "semantic-release": "22.0.7",
