@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.60](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.59...colorguard-processor-v2.0.60) (2024-03-21)
+
+### Others
+
+- ⬆️ [`f819655`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/f819655) build(deps): Update dependency postcss to v8.4.38
+
 # [colorguard-processor-v2.0.59](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.58...colorguard-processor-v2.0.59) (2024-03-21)
 
 ### Others
