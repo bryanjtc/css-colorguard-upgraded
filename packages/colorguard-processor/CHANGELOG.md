@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.64](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.63...colorguard-processor-v2.0.64) (2024-04-04)
+
+### Others
+
+- ⬆️ [`d485c34`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/d485c34) build(deps): Update dependency typescript to v5.4.4
+
 # [colorguard-processor-v2.0.63](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.62...colorguard-processor-v2.0.63) (2024-04-04)
 
 ### Others
