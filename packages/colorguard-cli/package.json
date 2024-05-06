@@ -1,6 +1,6 @@
 {
   "name": "colorguard-cli",
-  "version": "2.0.63",
+  "version": "2.0.64",
   "description": "CLI to keep a watchful eye on your css colors",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
