@@ -39,7 +39,7 @@
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "11.0.1",
-    "@types/node": "20.12.9",
+    "@types/node": "20.12.10",
     "@types/yargs": "17.0.17",
     "colorguard-processor": "workspace:*",
     "gitmojis": "3.14.0",
