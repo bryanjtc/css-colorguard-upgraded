@@ -2,7 +2,7 @@ import { basename, resolve } from "path";
 
 import { isPlainObject, castArray, uniqWith, uniq } from "lodash";
 import dirGlob from "dir-glob";
-import globby from "globby";
+import { globby } from 'globby';
 import debugFactory from "debug";
 
 const debug = debugFactory("semantic-release:github");
