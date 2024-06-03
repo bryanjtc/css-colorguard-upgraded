@@ -48,7 +48,7 @@
     "semantic-release-github-cjs": "workspace:*",
     "semantic-release-gitmoji": "1.6.5",
     "semantic-release-monorepo": "7.0.8",
-    "tsup": "8.0.2",
+    "tsup": "8.1.0",
     "typescript": "5.4.5",
     "yargs": "17.6.2"
   },
