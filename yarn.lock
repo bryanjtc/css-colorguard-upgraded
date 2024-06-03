@@ -1201,10 +1201,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/mime@npm:3.0.4":
-  version: 3.0.4
-  resolution: "@types/mime@npm:3.0.4"
-  checksum: 10/a6139c8e1f705ef2b064d072f6edc01f3c099023ad7c4fce2afc6c2bf0231888202adadbdb48643e8e20da0ce409481a49922e737eca52871b3dc08017455843
+"@types/mime@npm:4.0.0":
+  version: 4.0.0
+  resolution: "@types/mime@npm:4.0.0"
+  dependencies:
+    mime: "npm:*"
+  checksum: 10/e19258adf39badcfa1ed1deecc081f5d4fbbbd655bb6ae23fc6f0101309c61e95feb66f6a839dfe908d4c7b82e9ef39717d2de0212eebffa5cdabdc3f5cefcc1
   languageName: node
   linkType: hard
 
@@ -4785,7 +4787,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime@npm:3.0.0, mime@npm:^3.0.0":
+"mime@npm:*, mime@npm:4.0.3":
+  version: 4.0.3
+  resolution: "mime@npm:4.0.3"
+  bin:
+    mime: bin/cli.js
+  checksum: 10/fdabb0f0aecd34c11be108e7a73d74a9f672bee8586d3353834ebebedfb8420bdf932efad11a343de994978504024dab5b7846fc4cae4b1855b571a01d27ee6e
+  languageName: node
+  linkType: hard
+
+"mime@npm:^3.0.0":
   version: 3.0.0
   resolution: "mime@npm:3.0.0"
   bin:
@@ -6531,7 +6542,7 @@ __metadata:
     "@types/fs-extra": "npm:11.0.4"
     "@types/issue-parser": "npm:3.0.5"
     "@types/lodash": "npm:4.17.4"
-    "@types/mime": "npm:3.0.4"
+    "@types/mime": "npm:4.0.0"
     "@types/node": "npm:20.14.0"
     "@types/url-join": "npm:4.0.3"
     aggregate-error: "npm:3.1.0"
@@ -6543,7 +6554,7 @@ __metadata:
     https-proxy-agent: "npm:7.0.4"
     issue-parser: "npm:6.0.0"
     lodash: "npm:4.17.21"
-    mime: "npm:3.0.0"
+    mime: "npm:4.0.3"
     p-filter: "npm:4.1.0"
     semantic-release: "npm:22.0.7"
     tsup: "npm:8.0.2"
