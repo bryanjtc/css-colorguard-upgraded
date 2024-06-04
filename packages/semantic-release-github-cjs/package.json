@@ -32,7 +32,7 @@
         "@types/issue-parser": "3.0.5",
         "@types/lodash": "4.17.4",
         "@types/mime": "4.0.0",
-        "@types/node": "20.14.0",
+        "@types/node": "20.14.1",
         "@types/url-join": "4.0.3",
         "globby": "14.0.1",
         "mime": "4.0.3",
