@@ -1243,12 +1243,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.14.2":
-  version: 20.14.2
-  resolution: "@types/node@npm:20.14.2"
+"@types/node@npm:20.14.4":
+  version: 20.14.4
+  resolution: "@types/node@npm:20.14.4"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: 10/c38e47b190fa0a8bdfde24b036dddcf9401551f2fb170a90ff33625c7d6f218907e81c74e0fa6e394804a32623c24c60c50e249badc951007830f0d02c48ee0f
+  checksum: 10/ed4a4c0d66853f0d1735956caa9bb7b38e859506539367de5d01d425d0d6415d7de236d564aad88b36599d4224fb510ac1bc6e29d4d0e45530ad253239a181f5
   languageName: node
   linkType: hard
 
@@ -2104,7 +2104,7 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/npm": "npm:11.0.1"
-    "@types/node": "npm:20.14.2"
+    "@types/node": "npm:20.14.4"
     "@types/yargs": "npm:17.0.17"
     colorguard-processor: "workspace:*"
     gitmojis: "npm:3.14.0"
@@ -2129,7 +2129,7 @@ __metadata:
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/npm": "npm:11.0.1"
-    "@types/node": "npm:20.14.2"
+    "@types/node": "npm:20.14.4"
     "@types/postcss-reporter": "npm:7.0.5"
     "@types/tape": "npm:5.6.4"
     "@types/text-table": "npm:0.2.5"
@@ -6856,7 +6856,7 @@ __metadata:
     "@types/issue-parser": "npm:3.0.5"
     "@types/lodash": "npm:4.17.5"
     "@types/mime": "npm:4.0.0"
-    "@types/node": "npm:20.14.2"
+    "@types/node": "npm:20.14.4"
     "@types/url-join": "npm:4.0.3"
     aggregate-error: "npm:3.1.0"
     debug: "npm:4.3.5"
