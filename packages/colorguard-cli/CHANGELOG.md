@@ -1,3 +1,9 @@
+# [colorguard-cli-v2.0.79](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.78...colorguard-cli-v2.0.79) (2024-06-29)
+
+### Others
+
+- ⬆️ [`7252662`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/7252662) build(deps): Update dependency postcss to v8.4.39
+
 # [colorguard-cli-v2.0.78](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.77...colorguard-cli-v2.0.78) (2024-06-26)
 
 ### Others
