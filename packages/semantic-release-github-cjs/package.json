@@ -34,7 +34,7 @@
         "@types/mime": "4.0.0",
         "@types/node": "20.14.9",
         "@types/url-join": "4.0.3",
-        "globby": "14.0.1",
+        "globby": "14.0.2",
         "mime": "4.0.3",
         "p-filter": "4.1.0",
         "semantic-release": "22.0.7",
