@@ -39,7 +39,7 @@
         "p-filter": "4.1.0",
         "semantic-release": "22.0.7",
         "tsup": "8.1.0",
-        "typescript": "5.5.2",
+        "typescript": "5.5.3",
         "url-join": "5.0.0"
     },
     "dependencies": {
