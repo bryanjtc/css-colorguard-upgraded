@@ -5048,12 +5048,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime@npm:*, mime@npm:4.0.3":
+"mime@npm:*":
   version: 4.0.3
   resolution: "mime@npm:4.0.3"
   bin:
     mime: bin/cli.js
   checksum: 10/fdabb0f0aecd34c11be108e7a73d74a9f672bee8586d3353834ebebedfb8420bdf932efad11a343de994978504024dab5b7846fc4cae4b1855b571a01d27ee6e
+  languageName: node
+  linkType: hard
+
+"mime@npm:4.0.4":
+  version: 4.0.4
+  resolution: "mime@npm:4.0.4"
+  bin:
+    mime: bin/cli.js
+  checksum: 10/28e41053ae09cbf4186c551d7cc3cdda10c04fdf447cfdb66db096d83279889a0e0589805b15e36c37ca8b0eedfa6317f25d0514462525271f0cffa5cb0514b4
   languageName: node
   linkType: hard
 
@@ -6874,7 +6883,7 @@ __metadata:
     https-proxy-agent: "npm:7.0.5"
     issue-parser: "npm:6.0.0"
     lodash: "npm:4.17.21"
-    mime: "npm:4.0.3"
+    mime: "npm:4.0.4"
     p-filter: "npm:4.1.0"
     semantic-release: "npm:22.0.7"
     tsup: "npm:8.1.0"
