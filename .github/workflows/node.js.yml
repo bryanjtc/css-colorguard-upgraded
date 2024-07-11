@@ -29,6 +29,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: pnpm install, build, and test
         run: |
           pnpm install
