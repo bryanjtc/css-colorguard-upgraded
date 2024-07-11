@@ -52,14 +52,7 @@ module.exports = {
       },
     ],
     require.resolve('@semantic-release/changelog'),
-    [
-      require.resolve('@semantic-release/exec'),
-      {
-        prepareCmd:
-          "yarn version ${nextRelease.version} && echo '::set-output name=version::${nextRelease.version}'",
-        publishCmd: 'yarn npm publish --access public',
-      },
-    ],
+    require.resolve('@semantic-release/npm'),
     require.resolve("semantic-release-github-cjs"),
     [
       require.resolve('@semantic-release/git'),

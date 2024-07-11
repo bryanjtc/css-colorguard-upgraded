@@ -23,13 +23,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'yarn'
-      - name: yarn install, build, and test
+          cache: 'pnpm'
+      - name: pnpm install, build, and test
         run: |
-          yarn install --immutable --immutable-cache
-          yarn workspace postcss-colorguard build  
-          yarn workspace colorguard-processor build
-          yarn workspace colorguard-processor test
-          yarn workspace colorguard-cli build
+          pnpm install
+          pnpm -F=semantic-release-github-cjs build
+          pnpm -F=postcss-colorguard build  
+          pnpm -F=colorguard-processor build
+          pnpm -F=colorguard-cli build
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}

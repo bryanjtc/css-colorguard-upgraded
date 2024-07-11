@@ -6,9 +6,10 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prepublishOnly": "yarn run build",
+    "prepublishOnly": "npm run build",
     "build": "tsup",
-    "test": "tape test/*.ts | tap-spec"
+    "test": "tape test/*.ts | tap-spec",
+    "semantic-release": "semantic-release"
   },
   "files": [
     "dist"
@@ -68,5 +69,5 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "pnpm@9.1.4"
 }

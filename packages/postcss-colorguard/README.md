@@ -77,7 +77,7 @@ equivalent notations, set this option to `true`.
 
 ```bash
 npm install postcss-colorguard postcss
-yarn add postcss-colorguard postcss
+pnpm add postcss-colorguard postcss
 ```
 
 ## Thanks

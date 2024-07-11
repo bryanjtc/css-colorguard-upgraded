@@ -73,7 +73,7 @@ equivalent notations, set this option to `true`.
 
 ```bash
 npm install colorguard-processor
-yarn add colorguard-processor
+pnpm add colorguard-processor
 ```
 
 ## Thanks

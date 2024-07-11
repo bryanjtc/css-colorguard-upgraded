@@ -25,7 +25,7 @@ To see the available options, just run:
 
 ```bash
 npx colorguard-cli
-yarn dlx colorguard-cli
+pnpm dlx colorguard-cli
 ```
 
 ## Thanks

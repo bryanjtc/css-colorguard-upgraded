@@ -14,26 +14,33 @@ jobs:
         with :
           fetch-depth: 0
           ref: ${{ github.head_ref }}
-      - name: Set up Node.js
-        uses: actions/setup-node@v4         
+      - uses: actions/setup-node@v4
         with:
           node-version: '20.x'
-          cache: 'yarn'
+          cache: 'pnpm'
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 9.1.4
+          run_install: false
       - name: Install dependencies
-        run: yarn install --immutable --immutable-cache
-      - name: Set yarn config
-        run: yarn config set npmAuthToken $NPM_AUTH_TOKEN
+        run: pnpm install
         env:
-          NPM_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: Build
         run: |
-          yarn workspace semantic-release-github-cjs build
-          yarn workspace postcss-colorguard build  
-          yarn workspace colorguard-processor build
-          yarn workspace colorguard-cli build
+          pnpm -F=semantic-release-github-cjs build
+          pnpm -F=postcss-colorguard build  
+          pnpm -F=colorguard-processor build
+          pnpm -F=colorguard-cli build
       - name: Semantic Release dry run
         id: dry-release
-        run: unset GITHUB_ACTIONS && yarn workspaces foreach -W --no-private --topological-dev run semantic-release --dry-run --no-ci --branches ${HEAD_REF}
+        run: |
+          unset GITHUB_ACTIONS 
+          pnpm -F=postcss-colorguard semantic-release --dry-run --no-ci --branches ${HEAD_REF}
+          pnpm -F=postcss-processor semantic-release --dry-run --no-ci --branches ${HEAD_REF}
+          pnpm -F=postcss-cli semantic-release --dry-run --no-ci --branches ${HEAD_REF}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           HEAD_REF: ${{ github.head_ref }}
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
