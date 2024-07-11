@@ -1,12 +1,11 @@
-name: Master
+name: Pre Publish
 on:
   push:
     branches:
       - master
-  workflow_dispatch:
   
 jobs:
-  build_and_release:
+  pre-publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write # to be able to publish a GitHub release
@@ -37,12 +36,11 @@ jobs:
           pnpm -F=postcss-colorguard build  
           pnpm -F=colorguard-processor build
           pnpm -F=colorguard-cli build
-      - name: Publish package
+      - name: Create release
+        run: pnpm nx release --skip-publish
+      - name: Commit release
         run: |
-          pnpm -F=postcss-colorguard semantic-release
-          pnpm -F=colorguard-processor semantic-release
-          pnpm -F=colorguard-cli semantic-release
-        env:
-          NPM_TOKEN: ${{ secrets.YARN_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          git config --global user.name 'Bryan Thomas'
+          git config --global user.email '49354825+bryanjtc@users.noreply.github.com'
+          git push
+          git push --tags

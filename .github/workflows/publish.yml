@@ -1,0 +1,45 @@
+name: Publish
+on:
+  push:
+    tags:
+      - postcss-colorguard-v*.*.*
+      - colorguard-processor-v*.*.*
+      - colorguard-cli-v*.*.*
+  
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 9.5.0
+          run_install: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+      - name: Install dependencies
+        run: pnpm install
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: npm audit signatures
+      - name: Build
+        run: |
+          pnpm -F=semantic-release-github-cjs build
+          pnpm -F=semantic-release-npm-cjs build
+          pnpm -F=postcss-colorguard build  
+          pnpm -F=colorguard-processor build
+          pnpm -F=colorguard-cli build
+      - name: Publish package
+        run: pnpm nx release publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true

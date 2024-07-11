@@ -12,3 +12,8 @@
 
 dist/
 .bashrc
+
+
+
+.nx/cache
+.nx/workspace-data
