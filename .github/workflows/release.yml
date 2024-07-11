@@ -1,11 +1,11 @@
-name: Publish
+name: Release
 on:
-  release:
-    types:
-      - created
+  push:
+    branches:
+      - master
   
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
     permissions:
       contents: write # to be able to publish a GitHub release
@@ -38,8 +38,9 @@ jobs:
         run: |
           git config --global user.name 'Bryan Thomas'
           git config --global user.email '49354825+bryanjtc@users.noreply.github.com'
-      - name: Publish release
-        run: pnpm nx release publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
+      - name: Create release
+        run: pnpm nx release --skip-publish
+      - name: Commit release
+        run: |
+          git push
+          git push --tags
