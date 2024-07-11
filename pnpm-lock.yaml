@@ -8,51 +8,18 @@ importers:
 
   .:
     devDependencies:
-      '@semantic-release/changelog':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/exec':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/git':
-        specifier: 10.0.1
-        version: 10.0.1(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/npm':
-        specifier: 12.0.1
-        version: 12.0.1(semantic-release@24.0.0(typescript@5.5.3))
       gitmojis:
         specifier: 3.14.0
         version: 3.14.0
       jshint:
         specifier: 2.13.6
         version: 2.13.6
-      semantic-release:
-        specifier: 24.0.0
-        version: 24.0.0(typescript@5.5.3)
-      semantic-release-github-cjs:
-        specifier: workspace:*
-        version: link:packages/semantic-release-github-cjs
-      semantic-release-gitmoji:
-        specifier: 1.6.5
-        version: 1.6.5(semantic-release@24.0.0(typescript@5.5.3))
-      semantic-release-monorepo:
-        specifier: 7.0.8
-        version: 7.0.8(semantic-release@24.0.0(typescript@5.5.3))
       typescript:
         specifier: 5.5.3
         version: 5.5.3
 
   packages/colorguard-cli:
     devDependencies:
-      '@semantic-release/changelog':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/exec':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/git':
-        specifier: 10.0.1
-        version: 10.0.1(semantic-release@24.0.0(typescript@5.5.3))
       '@types/node':
         specifier: 20.14.10
         version: 20.14.10
@@ -68,21 +35,6 @@ importers:
       postcss:
         specifier: 8.4.39
         version: 8.4.39
-      semantic-release:
-        specifier: 24.0.0
-        version: 24.0.0(typescript@5.5.3)
-      semantic-release-github-cjs:
-        specifier: workspace:*
-        version: link:../semantic-release-github-cjs
-      semantic-release-gitmoji:
-        specifier: 1.6.5
-        version: 1.6.5(semantic-release@24.0.0(typescript@5.5.3))
-      semantic-release-monorepo:
-        specifier: 7.0.8
-        version: 7.0.8(semantic-release@24.0.0(typescript@5.5.3))
-      semantic-release-npm-cjs:
-        specifier: workspace:*
-        version: link:../semantic-release-npm
       tsup:
         specifier: 8.1.0
         version: 8.1.0(postcss@8.4.39)(typescript@5.5.3)
@@ -334,8 +286,8 @@ importers:
         specifier: 6.1.0
         version: 6.1.0
       npm:
-        specifier: 10.5.0
-        version: 10.5.0
+        specifier: 10.8.2
+        version: 10.8.2
       rc:
         specifier: 1.2.8
         version: 1.2.8
@@ -2132,82 +2084,6 @@ packages:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  npm@10.5.0:
-    resolution: {integrity: sha512-Ejxwvfh9YnWVU2yA5FzoYLTW52vxHCz+MHrOFg9Cc8IFgF/6f5AGPAvb5WTay5DIUP1NIfN3VBZ0cLlGO0Ys+A==}
-    engines: {node: ^18.17.0 || >=20.5.0}
-    hasBin: true
-    bundledDependencies:
-      - '@isaacs/string-locale-compare'
-      - '@npmcli/arborist'
-      - '@npmcli/config'
-      - '@npmcli/fs'
-      - '@npmcli/map-workspaces'
-      - '@npmcli/package-json'
-      - '@npmcli/promise-spawn'
-      - '@npmcli/run-script'
-      - '@sigstore/tuf'
-      - abbrev
-      - archy
-      - cacache
-      - chalk
-      - ci-info
-      - cli-columns
-      - cli-table3
-      - columnify
-      - fastest-levenshtein
-      - fs-minipass
-      - glob
-      - graceful-fs
-      - hosted-git-info
-      - ini
-      - init-package-json
-      - is-cidr
-      - json-parse-even-better-errors
-      - libnpmaccess
-      - libnpmdiff
-      - libnpmexec
-      - libnpmfund
-      - libnpmhook
-      - libnpmorg
-      - libnpmpack
-      - libnpmpublish
-      - libnpmsearch
-      - libnpmteam
-      - libnpmversion
-      - make-fetch-happen
-      - minimatch
-      - minipass
-      - minipass-pipeline
-      - ms
-      - node-gyp
-      - nopt
-      - normalize-package-data
-      - npm-audit-report
-      - npm-install-checks
-      - npm-package-arg
-      - npm-pick-manifest
-      - npm-profile
-      - npm-registry-fetch
-      - npm-user-validate
-      - npmlog
-      - p-map
-      - pacote
-      - parse-conflict-json
-      - proc-log
-      - qrcode-terminal
-      - read
-      - semver
-      - spdx-expression-parse
-      - ssri
-      - supports-color
-      - tar
-      - text-table
-      - tiny-relative-date
-      - treeverse
-      - validate-npm-package-name
-      - which
-      - write-file-atomic
-
   npm@10.8.2:
     resolution: {integrity: sha512-x/AIjFIKRllrhcb48dqUNAAZl0ig9+qMuN91RpZo3Cb2+zuibfh+KISl6+kVVyktDz230JKc208UkQwwMqyB+w==}
     engines: {node: ^18.17.0 || >=20.5.0}
@@ -3593,7 +3469,7 @@ snapshots:
       lodash-es: 4.17.21
       nerf-dart: 1.0.0
       normalize-url: 8.0.1
-      npm: 10.5.0
+      npm: 10.8.2
       rc: 1.2.8
       read-pkg: 9.0.1
       registry-auth-token: 5.0.0
@@ -5034,8 +4910,6 @@ snapshots:
   npm-run-path@5.3.0:
     dependencies:
       path-key: 4.0.0
-
-  npm@10.5.0: {}
 
   npm@10.8.2: {}
 
