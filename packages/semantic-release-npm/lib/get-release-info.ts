@@ -1,4 +1,4 @@
-import normalizeUrl from "normalize-url";
+const normalizeUrl = require("normalize-url")
 
 export default function (
   { name },

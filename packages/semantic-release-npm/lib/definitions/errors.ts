@@ -1,5 +1,6 @@
 import { resolve } from "node:path";
-import readPkg from "read-pkg";
+
+const readPkg = require('read-pkg');
 
 const pkg = readPkg.sync({ cwd: resolve(__dirname, "../../") });
 const [homepage] = pkg.homepage.split("#");

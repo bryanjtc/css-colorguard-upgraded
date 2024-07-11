@@ -1,9 +1,10 @@
-import execa from "execa";
-import normalizeUrl from "normalize-url";
 import AggregateError from "aggregate-error";
 import getError from "./get-error.js";
 import getRegistry from "./get-registry.js";
 import setNpmrcAuth from "./set-npmrc-auth.js";
+
+const execa = require("execa");
+const normalizeUrl = require("normalize-url")
 
 export default async function (npmrc, pkg, context) {
   const {

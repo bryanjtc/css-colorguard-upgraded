@@ -1,7 +1,9 @@
-import execa from "execa";
+
 import getRegistry from "./get-registry.js";
 import getChannel from "./get-channel.js";
 import getReleaseInfo from "./get-release-info.js";
+
+const execa = require("execa");
 
 export default async function (npmrc, { npmPublish }, pkg, context) {
   const {

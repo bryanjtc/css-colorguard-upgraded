@@ -1,6 +1,7 @@
 import path from "path";
 import { move } from "fs-extra";
-import execa from "execa";
+
+const execa = require("execa");
 
 export default async function (
   npmrc,
