@@ -2,12 +2,27 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "defaultBase": "master",
   "release": {
-    "projects": ["packages/*"],
+    "projects": [
+      "packages/*"
+    ],
     "projectsRelationship": "independent",
     "releaseTagPattern": "{projectName}-v{version}",
     "changelog": {
       "projectChangelogs": {
         "createRelease": "github"
+      }
+    },
+    "version": {
+      "conventionalCommits": true
+    }
+  },
+  "targetDefaults": {
+    "nx-release-publish": {
+      "dependsOn": [
+        "build"
+      ],
+      "options": {
+        "packageRoot": "packages/{projectName}/dist"
       }
     }
   }
