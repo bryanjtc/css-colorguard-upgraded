@@ -56,7 +56,7 @@
     "postcss": "8.4.39",
     "postcss-colorguard": "workspace:*",
     "postcss-reporter": "7.1.0",
-    "semantic-release": "22.0.7",
+    "semantic-release": "22.0.12",
     "semantic-release-github-cjs": "workspace:*",
     "semantic-release-gitmoji": "1.6.5",
     "semantic-release-monorepo": "7.0.8",
