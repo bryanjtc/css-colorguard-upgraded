@@ -343,8 +343,8 @@ importers:
         specifier: 5.2.0
         version: 5.2.0
       registry-auth-token:
-        specifier: 5.0.0
-        version: 5.0.0
+        specifier: 5.0.2
+        version: 5.0.2
       semantic-release:
         specifier: '>= 19'
         version: 22.0.7(typescript@5.5.3)
