@@ -1,7 +1,9 @@
 import path from "path";
-import readPkg from "read-pkg";
 import AggregateError from "aggregate-error";
 import getError from "./get-error.js";
+
+const readPkg = require('read-pkg');
+
 
 export default async function ({ pkgRoot }, { cwd }) {
   try {
