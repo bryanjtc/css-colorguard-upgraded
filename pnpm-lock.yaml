@@ -354,6 +354,13 @@ importers:
       tempy:
         specifier: 1.0.1
         version: 1.0.1
+    devDependencies:
+      tsup:
+        specifier: 8.1.0
+        version: 8.1.0(postcss@8.4.39)(typescript@5.5.3)
+      typescript:
+        specifier: 5.5.3
+        version: 5.5.3
 
 packages:
 

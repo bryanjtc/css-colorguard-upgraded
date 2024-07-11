@@ -36,5 +36,8 @@
         "semver": "7.1.2",
         "tempy": "1.0.1"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "tsup": "8.1.0",
+        "typescript": "5.5.3"
+    }
 }
