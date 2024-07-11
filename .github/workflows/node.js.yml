@@ -19,8 +19,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Install pnpm
-        run: corepack enable pnpm
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 9.5.0
+          run_install: false
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v4
         with:
@@ -30,8 +33,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: pnpm install, build, and test
         run: |
-          pnpm install
-          pnpm -F=semantic-release-github-cjs build
+          pnpm install -F='semantic-release-github-cjs' && pnpm -F='semantic-release-github-cjs' build
           pnpm -F=postcss-colorguard build  
           pnpm -F=colorguard-processor build
           pnpm -F=colorguard-cli build
