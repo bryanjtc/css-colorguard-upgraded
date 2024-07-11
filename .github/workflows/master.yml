@@ -28,14 +28,14 @@ jobs:
         run: pnpm install
         env:
           NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: npm audit signatures
       - name: Build
         run: |
           pnpm -F=semantic-release-github-cjs build
           pnpm -F=postcss-colorguard build  
           pnpm -F=colorguard-processor build
           pnpm -F=colorguard-cli build
-      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
-        run: npm audit signatures
       - name: Publish package
         run: |
           pnpm -F=postcss-colorguard semantic-release
