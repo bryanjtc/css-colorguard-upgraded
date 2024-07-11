@@ -8,6 +8,11 @@ on:
 jobs:
   build_and_release:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to be able to publish a GitHub release
+      issues: write # to be able to comment on released issues
+      pull-requests: write # to be able to comment on released pull requests
+      id-token: write # to enable use of OIDC for npm provenance
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,6 +31,8 @@ jobs:
           yarn workspace postcss-colorguard build  
           yarn workspace colorguard-processor build
           yarn workspace colorguard-cli build
+      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+        run: npm audit signatures
       - name: Publish package
         run: yarn workspaces foreach -W --no-private --topological-dev run semantic-release
         env:
