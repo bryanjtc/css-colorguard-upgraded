@@ -5,7 +5,7 @@ import getError from "./get-error.js";
 
 export default async function ({ pkgRoot }, { cwd }) {
   try {
-    const pkg = await readPkg.sync({ cwd: pkgRoot ? path.resolve(cwd, String(pkgRoot)) : cwd });
+    const pkg = await readPkg({ cwd: pkgRoot ? path.resolve(cwd, String(pkgRoot)) : cwd });
 
     if (!pkg.name) {
       throw getError("ENOPKGNAME");
