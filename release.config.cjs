@@ -52,7 +52,7 @@ module.exports = {
       },
     ],
     require.resolve('@semantic-release/changelog'),
-    require.resolve('@semantic-release/npm'),
+    require.resolve('semantic-release-npm-cjs'),
     require.resolve("semantic-release-github-cjs"),
     [
       require.resolve('@semantic-release/git'),
