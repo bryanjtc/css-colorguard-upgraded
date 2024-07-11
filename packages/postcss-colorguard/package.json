@@ -7,8 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "prepublishOnly": "npm run build",
-    "build": "tsup",
-    "semantic-release": "semantic-release"
+    "build": "tsup"
   },
   "files": [
     "dist"
@@ -43,20 +42,12 @@
     "postcss": ">8.0.0"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/exec": "6.0.3",
-    "@semantic-release/git": "10.0.1",
-    "semantic-release-npm-cjs": "workspace:*",
     "@types/color-diff": "1.2.5",
     "@types/color-rgba": "2.1.2",
     "color-diff": "1.4.0",
     "color-rgba": "3.0.0",
     "gitmojis": "3.14.0",
     "postcss": "8.4.39",
-    "semantic-release": "24.0.0",
-    "semantic-release-github-cjs": "workspace:*",
-    "semantic-release-gitmoji": "1.6.5",
-    "semantic-release-monorepo": "7.0.8",
     "synesthesia": "1.0.1",
     "tsup": "8.1.0",
     "typescript": "5.5.3"
