@@ -1,7 +1,7 @@
 import { resolve } from "node:path";
-import { readPackageSync } from "read-pkg";
+import readPkg from "read-pkg";
 
-const pkg = readPackageSync({ cwd: resolve(__dirname, "../../") });
+const pkg = readPkg.sync({ cwd: resolve(__dirname, "../../") });
 const [homepage] = pkg.homepage.split("#");
 const linkify = (file) => `${homepage}/blob/master/${file}`;
 
