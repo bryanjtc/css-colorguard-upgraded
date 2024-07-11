@@ -36,6 +36,8 @@ jobs:
           pnpm -F=postcss-colorguard build  
           pnpm -F=colorguard-processor build
           pnpm -F=colorguard-cli build
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: Publish package
         run: |
           pnpm -F=postcss-colorguard semantic-release

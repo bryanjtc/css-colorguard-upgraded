@@ -33,6 +33,8 @@ jobs:
           pnpm -F=postcss-colorguard build  
           pnpm -F=colorguard-processor build
           pnpm -F=colorguard-cli build
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: Semantic Release dry run
         id: dry-release
         run: |
