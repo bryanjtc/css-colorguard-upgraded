@@ -8,51 +8,18 @@ importers:
 
   .:
     devDependencies:
-      '@semantic-release/changelog':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/exec':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/git':
-        specifier: 10.0.1
-        version: 10.0.1(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/npm':
-        specifier: 12.0.1
-        version: 12.0.1(semantic-release@24.0.0(typescript@5.5.3))
       gitmojis:
         specifier: 3.14.0
         version: 3.14.0
       jshint:
         specifier: 2.13.6
         version: 2.13.6
-      semantic-release:
-        specifier: 24.0.0
-        version: 24.0.0(typescript@5.5.3)
-      semantic-release-github-cjs:
-        specifier: workspace:*
-        version: link:packages/semantic-release-github-cjs
-      semantic-release-gitmoji:
-        specifier: 1.6.5
-        version: 1.6.5(semantic-release@24.0.0(typescript@5.5.3))
-      semantic-release-monorepo:
-        specifier: 7.0.8
-        version: 7.0.8(semantic-release@24.0.0(typescript@5.5.3))
       typescript:
         specifier: 5.5.3
         version: 5.5.3
 
   packages/colorguard-cli:
     devDependencies:
-      '@semantic-release/changelog':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/exec':
-        specifier: 6.0.3
-        version: 6.0.3(semantic-release@24.0.0(typescript@5.5.3))
-      '@semantic-release/git':
-        specifier: 10.0.1
-        version: 10.0.1(semantic-release@24.0.0(typescript@5.5.3))
       '@types/node':
         specifier: 20.14.10
         version: 20.14.10
@@ -68,21 +35,6 @@ importers:
       postcss:
         specifier: 8.4.39
         version: 8.4.39
-      semantic-release:
-        specifier: 24.0.0
-        version: 24.0.0(typescript@5.5.3)
-      semantic-release-github-cjs:
-        specifier: workspace:*
-        version: link:../semantic-release-github-cjs
-      semantic-release-gitmoji:
-        specifier: 1.6.5
-        version: 1.6.5(semantic-release@24.0.0(typescript@5.5.3))
-      semantic-release-monorepo:
-        specifier: 7.0.8
-        version: 7.0.8(semantic-release@24.0.0(typescript@5.5.3))
-      semantic-release-npm-cjs:
-        specifier: workspace:*
-        version: link:../semantic-release-npm
       tsup:
         specifier: 8.1.0
         version: 8.1.0(postcss@8.4.39)(typescript@5.5.3)
@@ -331,8 +283,8 @@ importers:
         specifier: 1.0.0
         version: 1.0.0
       normalize-url:
-        specifier: 6.1.0
-        version: 6.1.0
+        specifier: 8.0.1
+        version: 8.0.1
       npm:
         specifier: 10.5.0
         version: 10.5.0
@@ -2111,10 +2063,6 @@ packages:
   normalize-path@3.0.0:
     resolution: {integrity: sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA==}
     engines: {node: '>=0.10.0'}
-
-  normalize-url@6.1.0:
-    resolution: {integrity: sha512-DlL+XwOy3NxAQ8xuC0okPgK46iuVNAK01YN7RueYBqqFeGsBjV9XmCAzAdgt+667bCl5kPh9EqKKDwnaPG1I7A==}
-    engines: {node: '>=10'}
 
   normalize-url@8.0.1:
     resolution: {integrity: sha512-IO9QvjUMWxPQQhs60oOu10CRkWCiZzSUkzbXGGV9pviYl1fXYcvkzQ5jV9z8Y6un8ARoVRl4EtC6v6jNqbaJ/w==}
@@ -5018,8 +4966,6 @@ snapshots:
       validate-npm-package-license: 3.0.4
 
   normalize-path@3.0.0: {}
-
-  normalize-url@6.1.0: {}
 
   normalize-url@8.0.1: {}
 
