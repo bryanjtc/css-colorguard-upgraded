@@ -1,10 +1,8 @@
 name: Publish
 on:
   push:
-    tags:
-      - postcss-colorguard-v*.*.*
-      - colorguard-processor-v*.*.*
-      - colorguard-cli-v*.*.*
+    branches:
+      - master
   
 jobs:
   publish:
@@ -33,13 +31,14 @@ jobs:
         run: npm audit signatures
       - name: Build
         run: |
-          pnpm -F=semantic-release-github-cjs build
-          pnpm -F=semantic-release-npm-cjs build
           pnpm -F=postcss-colorguard build  
           pnpm -F=colorguard-processor build
           pnpm -F=colorguard-cli build
-      - name: Publish package
-        run: pnpm nx release publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
-          NPM_CONFIG_PROVENANCE: true
+      - name: Create release
+        run: pnpm nx release -y --verbose
+      - name: Commit release
+        run: |
+          git config --global user.name 'Bryan Thomas'
+          git config --global user.email '49354825+bryanjtc@users.noreply.github.com'
+          git push
+          git push --tags

@@ -34,8 +34,6 @@ jobs:
       - name: pnpm install, build, and test
         run: |
           pnpm install
-          pnpm -F=semantic-release-github-cjs build
-          pnpm -F=semantic-release-npm-cjs build
           pnpm -F=postcss-colorguard build  
           pnpm -F=colorguard-processor build
           pnpm -F=colorguard-cli build
