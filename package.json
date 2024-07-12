@@ -7,13 +7,13 @@
     "lint": "jshint ."
   },
   "devDependencies": {
-    "@nx/js": "19.4.2",
+    "@nx/js": "19.4.3",
     "@swc-node/register": "~1.10.0",
     "@swc/core": "~1.6.0",
     "@swc/helpers": "~0.5.11",
     "gitmojis": "3.14.0",
     "jshint": "2.13.6",
-    "nx": "19.4.2",
+    "nx": "19.4.3",
     "prettier": "^3.0.0",
     "typescript": "5.5.3"
   },
