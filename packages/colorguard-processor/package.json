@@ -54,7 +54,7 @@
     "tape": "5.8.1",
     "text-table": "0.2.0",
     "tsup": "8.2.2",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   },
   "engines": {
     "node": ">=18.0.0"
