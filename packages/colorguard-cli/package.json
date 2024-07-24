@@ -38,7 +38,7 @@
     "@types/yargs": "17.0.17",
     "colorguard-processor": "workspace:*",
     "gitmojis": "3.14.0",
-    "postcss": "8.4.39",
+    "postcss": "8.4.40",
     "tsup": "8.2.3",
     "typescript": "5.5.4",
     "yargs": "17.6.2"
