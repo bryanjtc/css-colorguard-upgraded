@@ -47,7 +47,7 @@
     "gitmojis": "3.14.0",
     "log-symbols": "6.0.0",
     "plur": "5.1.0",
-    "postcss": "8.4.40",
+    "postcss": "8.4.41",
     "postcss-colorguard": "workspace:*",
     "postcss-reporter": "7.1.0",
     "tap-spec": "5.0.0",
