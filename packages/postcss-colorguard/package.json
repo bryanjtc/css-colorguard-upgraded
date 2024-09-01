@@ -46,7 +46,7 @@
     "color-diff": "1.4.0",
     "color-rgba": "3.0.0",
     "gitmojis": "3.14.0",
-    "postcss": "8.4.42",
+    "postcss": "8.4.43",
     "synesthesia": "1.0.1",
     "tsup": "8.2.4",
     "typescript": "5.5.4"
