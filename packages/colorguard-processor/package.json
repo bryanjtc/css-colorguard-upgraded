@@ -51,7 +51,7 @@
     "postcss-colorguard": "workspace:*",
     "postcss-reporter": "7.1.0",
     "tap-spec": "5.0.0",
-    "tape": "5.8.1",
+    "tape": "5.9.0",
     "text-table": "0.2.0",
     "tsup": "8.2.4",
     "typescript": "5.5.4"
