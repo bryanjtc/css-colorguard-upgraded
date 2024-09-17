@@ -48,7 +48,7 @@
     "gitmojis": "3.14.0",
     "postcss": "8.4.47",
     "synesthesia": "1.0.1",
-    "tsup": "8.2.4",
+    "tsup": "8.3.0",
     "typescript": "5.5.4"
   },
   "engines": {
