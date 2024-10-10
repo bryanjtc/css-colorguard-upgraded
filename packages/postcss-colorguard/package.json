@@ -49,7 +49,7 @@
     "postcss": "8.4.47",
     "synesthesia": "1.0.1",
     "tsup": "8.3.0",
-    "typescript": "5.5.4"
+    "typescript": "5.6.3"
   },
   "engines": {
     "node": ">=18.0.0"
