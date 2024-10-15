@@ -30,7 +30,7 @@
         "@types/dir-glob": "2.0.3",
         "@types/fs-extra": "11.0.4",
         "@types/issue-parser": "3.0.5",
-        "@types/lodash": "4.17.6",
+        "@types/lodash": "4.17.10",
         "@types/mime": "4.0.0",
         "@types/node": "20.14.10",
         "@types/url-join": "4.0.3",
