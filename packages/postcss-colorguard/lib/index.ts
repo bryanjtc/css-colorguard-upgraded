@@ -18,13 +18,16 @@ const findColors = (str: string) => {
   while ((match = synesthesia.all.exec(str)) !== null) {
     lines = str.slice(0, match.index).split('\n');
 
-    matches.push({
-      index: match.index,
-      line: lines.length,
-      column: lines[lines.length - 1].length + 1,
-      match: match[0],
-      color: rgba(match[0])!,
-    });
+    const color = rgba(match[0]);
+    if (isColorArray(color)) {
+      matches.push({
+        index: match.index,
+        line: lines.length,
+        column: lines[lines.length - 1].length + 1,
+        match: match[0],
+        color: color,
+      });
+    }
   }
 
   // Reset search indexes
@@ -32,6 +35,10 @@ const findColors = (str: string) => {
 
   return matches;
 };
+
+function isColorArray(color: any): color is [number, number, number, number] {
+  return Array.isArray(color) && color.length === 4;
+}
 
 const convertToLab = (clr: Color) => {
   return rgba_to_lab({
