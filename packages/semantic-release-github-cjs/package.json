@@ -23,9 +23,9 @@
     },
     "devDependencies": {
         "@octokit/core": "6.1.2",
-        "@octokit/plugin-paginate-rest": "11.3.3",
-        "@octokit/plugin-retry": "7.1.1",
-        "@octokit/plugin-throttling": "9.3.0",
+        "@octokit/plugin-paginate-rest": "11.3.5",
+        "@octokit/plugin-retry": "7.1.2",
+        "@octokit/plugin-throttling": "9.3.2",
         "@types/debug": "4.1.12",
         "@types/dir-glob": "2.0.3",
         "@types/fs-extra": "11.0.4",
