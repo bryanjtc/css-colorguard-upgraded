@@ -57,7 +57,7 @@ module.exports = {
       {
         prepareCmd:
           "yarn version ${nextRelease.version} && echo '::set-output name=version::${nextRelease.version}'",
-        publishCmd: 'yarn npm publish --provenance --access public',
+        publishCmd: 'yarn npm publish --access public',
       },
     ],
     require.resolve("semantic-release-github-cjs"),
