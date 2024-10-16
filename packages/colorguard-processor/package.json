@@ -60,7 +60,7 @@
     "semantic-release-gitmoji": "1.6.8",
     "semantic-release-monorepo": "7.0.8",
     "tap-spec": "5.0.0",
-    "tape": "5.8.1",
+    "tape": "5.9.0",
     "text-table": "0.2.0",
     "tsup": "8.1.0",
     "typescript": "5.5.3"
