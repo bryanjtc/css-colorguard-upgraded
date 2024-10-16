@@ -910,7 +910,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:^11.0.0":
+"@semantic-release/github@npm:11.0.0, @semantic-release/github@npm:^11.0.0":
   version: 11.0.0
   resolution: "@semantic-release/github@npm:11.0.0"
   dependencies:
@@ -2077,6 +2077,7 @@ __metadata:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
+    "@semantic-release/github": "npm:11.0.0"
     "@semantic-release/npm": "npm:12.0.1"
     "@types/node": "npm:20.16.11"
     "@types/yargs": "npm:17.0.17"
@@ -2084,7 +2085,6 @@ __metadata:
     gitmojis: "npm:3.14.0"
     postcss: "npm:8.4.47"
     semantic-release: "npm:24.1.2"
-    semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:8.0.0"
     tsup: "npm:8.1.0"
@@ -2102,6 +2102,7 @@ __metadata:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
+    "@semantic-release/github": "npm:11.0.0"
     "@semantic-release/npm": "npm:12.0.1"
     "@types/node": "npm:20.16.11"
     "@types/postcss-reporter": "npm:7.0.5"
@@ -2115,7 +2116,6 @@ __metadata:
     postcss-colorguard: "workspace:*"
     postcss-reporter: "npm:7.1.0"
     semantic-release: "npm:24.1.2"
-    semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:8.0.0"
     tap-spec: "npm:5.0.0"
@@ -6265,6 +6265,7 @@ __metadata:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
+    "@semantic-release/github": "npm:11.0.0"
     "@semantic-release/npm": "npm:12.0.1"
     "@types/color-diff": "npm:1.2.5"
     "@types/color-rgba": "npm:2.1.2"
@@ -6273,7 +6274,6 @@ __metadata:
     gitmojis: "npm:3.14.0"
     postcss: "npm:8.4.47"
     semantic-release: "npm:24.1.2"
-    semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:8.0.0"
     synesthesia: "npm:1.0.1"
@@ -6834,11 +6834,11 @@ __metadata:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
+    "@semantic-release/github": "npm:11.0.0"
     "@semantic-release/npm": "npm:12.0.1"
     gitmojis: "npm:3.14.0"
     jshint: "npm:2.13.6"
     semantic-release: "npm:24.1.2"
-    semantic-release-github-cjs: "workspace:*"
     semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:8.0.0"
     typescript: "npm:5.5.3"
@@ -6921,7 +6921,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semantic-release-github-cjs@workspace:*, semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs":
+"semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs":
   version: 0.0.0-use.local
   resolution: "semantic-release-github-cjs@workspace:packages/semantic-release-github-cjs"
   dependencies:
