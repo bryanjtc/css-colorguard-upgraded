@@ -37,7 +37,7 @@
         "globby": "14.0.2",
         "mime": "4.0.4",
         "p-filter": "4.1.0",
-        "semantic-release": "22.0.7",
+        "semantic-release": "22.0.12",
         "tsup": "8.1.0",
         "typescript": "5.5.3",
         "url-join": "5.0.0"
