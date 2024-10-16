@@ -57,7 +57,7 @@
           "publishCmd": "yarn npm publish --access public"
         }
       ],
-      "@semantic-release/github-cjs",
+      "@semantic-release/github",
       [
         "@semantic-release/git",
         {
