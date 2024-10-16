@@ -46,7 +46,7 @@
     "postcss": "8.4.47",
     "semantic-release": "22.0.7",
     "semantic-release-github-cjs": "workspace:*",
-    "semantic-release-gitmoji": "1.6.5",
+    "semantic-release-gitmoji": "1.6.8",
     "semantic-release-monorepo": "7.0.8",
     "tsup": "8.1.0",
     "typescript": "5.5.3",
