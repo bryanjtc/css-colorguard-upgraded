@@ -129,11 +129,13 @@ const plugin: PluginCreator<Options> = (opts): Plugin => {
               if (diffAmount < opts?.threshold && !whitelistHash[whitelisted]) {
                 const message =
                   match.match +
-                    ' collides with ' +
-                    cached[0].match +
-                    ' (' +
-                    cached[0].declaration?.source?.start?.line ??
-                  '' + ':' + getColumnPositionRelativeToLine(cached[0]) + ')';
+                  ' collides with ' +
+                  cached[0].match +
+                  ' (' +
+                  (cached[0].declaration?.source?.start?.line ?? '') +
+                  ':' +
+                  getColumnPositionRelativeToLine(cached[0]) +
+                  ')';
                 decl.warn(result, message, {
                   secondColor: match.match,
                   firstColor: cached[0].match,

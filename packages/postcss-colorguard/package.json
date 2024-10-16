@@ -57,7 +57,7 @@
     "semantic-release-gitmoji": "1.6.8",
     "synesthesia": "1.0.1",
     "tsup": "8.1.0",
-    "typescript": "5.5.3"
+    "typescript": "5.6.3"
   },
   "engines": {
     "node": ">=18.0.0"
