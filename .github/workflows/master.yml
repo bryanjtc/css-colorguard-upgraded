@@ -30,12 +30,11 @@ jobs:
           NPM_AUTH_TOKEN: ${{ secrets.YARN_TOKEN }}
       - name: Build
         run: |
-          yarn workspace semantic-release-github-cjs build
           yarn workspace postcss-colorguard build  
           yarn workspace colorguard-processor build
           yarn workspace colorguard-cli build
       - name: Publish package
-        run: yarn workspaces foreach -W --no-private --topological-dev run semantic-release
+        run: yarn run release
         env:
           NPM_TOKEN: ${{ secrets.YARN_TOKEN }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
