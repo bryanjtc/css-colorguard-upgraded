@@ -4,6 +4,12 @@
 
 - ⬆️ [`e0d0cff`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e0d0cff) build(deps): Update dependency @types/node to v20.16.11
 
+# [colorguard-processor-v2.0.93](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.92...colorguard-processor-v2.0.93) (2024-10-16)
+
+### Others
+
+- ⬆️ [`e0d0cff`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/e0d0cff) build(deps): Update dependency @types/node to v20.16.11
+
 # [colorguard-processor-v2.0.92](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.91...colorguard-processor-v2.0.92) (2024-10-16)
 
 ### Others
