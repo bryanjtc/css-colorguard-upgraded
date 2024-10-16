@@ -1,3 +1,9 @@
+# [colorguard-processor-v2.0.94](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.93...colorguard-processor-v2.0.94) (2024-10-16)
+
+### Others
+
+- ⬆️ [`3f5c901`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/3f5c901) build(deps): Update dependency log-symbols to v7
+
 # [colorguard-processor-v2.0.93](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.92...colorguard-processor-v2.0.93) (2024-10-16)
 
 ### Others
