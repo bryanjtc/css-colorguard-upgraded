@@ -1,0 +1,69 @@
+{
+    "branches": ["master"],
+    "plugins": [
+      [
+        "semantic-release-gitmoji",
+        {
+          "releaseRules": {
+            "major": [":boom:"],
+            "minor": [":sparkles:"],
+            "patch": [
+              ":zap:",
+              ":bug:",
+              ":ambulance:",
+              ":lipstick:",
+              ":lock:",
+              ":arrow_down:",
+              ":arrow_up:",
+              ":pushpin:",
+              ":chart_with_upwards_trend:",
+              ":heavy_plus_sign:",
+              ":heavy_minus_sign:",
+              ":wrench:",
+              ":globe_with_meridians:",
+              ":pencil2:",
+              ":rewind:",
+              ":package:",
+              ":alien:",
+              ":children_crossing:",
+              ":iphone:",
+              ":egg:",
+              ":alembic:",
+              ":mag:",
+              ":label:",
+              ":triangular_flag_on_post:",
+              ":goal_net:",
+              ":dizzy:",
+              ":wastebasket:",
+              ":passport_control:",
+              ":adhesive_bandage:",
+              ":necktie:",
+              ":bento:",
+              ":wheelchair:",
+              ":speech_balloon:",
+              ":card_file_box:"
+            ]
+          },
+          "releaseNotes": {
+            "semver": true
+          }
+        }
+      ],
+      "@semantic-release/changelog",
+      [
+        "@semantic-release/exec",
+        {
+          "prepareCmd": "yarn version ${nextRelease.version} && echo '::set-output name=version::${nextRelease.version}'",
+          "publishCmd": "yarn npm publish --access public"
+        }
+      ],
+      "@semantic-release/github",
+      [
+        "@semantic-release/git",
+        {
+          "message": "🚀 RELEASE: chore(release) - ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        }
+      ]
+    ]
+  }
+  
