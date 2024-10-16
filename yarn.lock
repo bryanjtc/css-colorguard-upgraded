@@ -2111,7 +2111,7 @@ __metadata:
     postcss: "npm:8.4.47"
     semantic-release: "npm:22.0.7"
     semantic-release-github-cjs: "workspace:*"
-    semantic-release-gitmoji: "npm:1.6.5"
+    semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:7.0.8"
     tsup: "npm:8.1.0"
     typescript: "npm:5.5.3"
@@ -2142,7 +2142,7 @@ __metadata:
     postcss-reporter: "npm:7.1.0"
     semantic-release: "npm:22.0.7"
     semantic-release-github-cjs: "workspace:*"
-    semantic-release-gitmoji: "npm:1.6.5"
+    semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:7.0.8"
     tap-spec: "npm:5.0.0"
     tape: "npm:5.8.1"
@@ -2637,6 +2637,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"emoji-regex@npm:^10.3.0":
+  version: 10.4.0
+  resolution: "emoji-regex@npm:10.4.0"
+  checksum: 10/76bb92c5bcf0b6980d37e535156231e4a9d0aa6ab3b9f5eabf7690231d5aa5d5b8e516f36e6804cbdd0f1c23dfef2a60c40ab7bb8aedd890584281a565b97c50
+  languageName: node
+  linkType: hard
+
 "emoji-regex@npm:^8.0.0":
   version: 8.0.0
   resolution: "emoji-regex@npm:8.0.0"
@@ -2988,6 +2995,13 @@ __metadata:
   version: 1.0.5
   resolution: "escape-string-regexp@npm:1.0.5"
   checksum: 10/6092fda75c63b110c706b6a9bfde8a612ad595b628f0bd2147eea1d3406723020810e591effc7db1da91d80a71a737a313567c5abb3813e8d9c71f4aa595b410
+  languageName: node
+  linkType: hard
+
+"escape-string-regexp@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "escape-string-regexp@npm:4.0.0"
+  checksum: 10/98b48897d93060f2322108bf29db0feba7dd774be96cd069458d1453347b25ce8682ecc39859d4bca2203cc0ab19c237bcc71755eff49a0f8d90beadeeba5cc5
   languageName: node
   linkType: hard
 
@@ -6173,7 +6187,7 @@ __metadata:
     postcss: "npm:8.4.47"
     semantic-release: "npm:22.0.7"
     semantic-release-github-cjs: "workspace:*"
-    semantic-release-gitmoji: "npm:1.6.5"
+    semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:7.0.8"
     synesthesia: "npm:1.0.1"
     tsup: "npm:8.1.0"
@@ -6775,7 +6789,7 @@ __metadata:
     jshint: "npm:2.13.6"
     semantic-release: "npm:22.0.7"
     semantic-release-github-cjs: "workspace:*"
-    semantic-release-gitmoji: "npm:1.6.5"
+    semantic-release-gitmoji: "npm:1.6.8"
     semantic-release-monorepo: "npm:7.0.8"
     typescript: "npm:5.5.3"
   languageName: unknown
@@ -6894,13 +6908,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"semantic-release-gitmoji@npm:1.6.5":
-  version: 1.6.5
-  resolution: "semantic-release-gitmoji@npm:1.6.5"
+"semantic-release-gitmoji@npm:1.6.8":
+  version: 1.6.8
+  resolution: "semantic-release-gitmoji@npm:1.6.8"
   dependencies:
     dateformat: "npm:^3.0.3"
     debug: "npm:^4.3.2"
-    emoji-regex: "npm:^9.2.2"
+    emoji-regex: "npm:^10.3.0"
+    escape-string-regexp: "npm:^4.0.0"
     git-url-parse: "npm:^13.0.0"
     gitmojis: "npm:^3.13.4"
     handlebars: "npm:^4.7.6"
@@ -6910,8 +6925,8 @@ __metadata:
     lodash.uniq: "npm:^4.5.0"
     node-emoji: "npm:^1.11.0"
   peerDependencies:
-    semantic-release: <23
-  checksum: 10/1eac8f333934c0b0adb4816d6b3e88c5acbb64a45c2fe5b82fcf0e0d46f45659c5a73d3e1748069a11472ef4ef790e2b6a8308dd0d018a95f5a87c274871d687
+    semantic-release: <25
+  checksum: 10/04413be56dd2b55e4216c8caab3d5ca7df32908831da3092cb584cf3aa8b3066fd7a8d7dbd289e18ed114a06f23ccdb566ffff4eaba7600c6043d51036137c65
   languageName: node
   linkType: hard
 
