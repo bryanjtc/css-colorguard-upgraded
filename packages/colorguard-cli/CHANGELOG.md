@@ -1,3 +1,14 @@
+# [v2.0.85](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.84...colorguard-cli-v2.0.85) (2024-10-16)
+
+## 🐛 Fixes
+- [`ed247a7`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/ed247a7)  build(deps): Update dependency @types/color-rgba to v2.1.3 
+- [`1756886`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/1756886)  fix: Validate color format before pushing to matches in findColors function 
+
+
+### Dependencies
+
+* **colorguard-processor:** upgraded to 2.0.96
+
 # [v2.0.84](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.83...colorguard-cli-v2.0.84) (2024-10-16)
 
 ## 🐛 Fixes
