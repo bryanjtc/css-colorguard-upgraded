@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10
 
-"@anolilab/multi-semantic-release@npm:1.1.4":
-  version: 1.1.4
-  resolution: "@anolilab/multi-semantic-release@npm:1.1.4"
+"@anolilab/multi-semantic-release@npm:1.1.5":
+  version: 1.1.5
+  resolution: "@anolilab/multi-semantic-release@npm:1.1.5"
   dependencies:
     "@semrel-extra/topo": "npm:^1.14.1"
     blork: "npm:^9.3.0"
@@ -15,7 +15,7 @@ __metadata:
     debug: "npm:^4.3.7"
     detect-indent: "npm:^7.0.1"
     detect-newline: "npm:^4.0.1"
-    execa: "npm:^9.4.1"
+    execa: "npm:^9.5.1"
     git-log-parser: "npm:^1.2.1"
     lodash-es: "npm:^4.17.21"
     resolve-from: "npm:^5.0.0"
@@ -2976,9 +2976,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"execa@npm:^9.4.1":
-  version: 9.4.1
-  resolution: "execa@npm:9.4.1"
+"execa@npm:^9.5.1":
+  version: 9.5.1
+  resolution: "execa@npm:9.5.1"
   dependencies:
     "@sindresorhus/merge-streams": "npm:^4.0.0"
     cross-spawn: "npm:^7.0.3"
@@ -2992,7 +2992,7 @@ __metadata:
     signal-exit: "npm:^4.1.0"
     strip-final-newline: "npm:^4.0.0"
     yoctocolors: "npm:^2.0.0"
-  checksum: 10/a9b4177049ffe3d998746b789f7cd22ffc5583f789c322d8fa7601f3f630b5b27b97df6e0223c0dfb04305c639e67cbb69a8375c2529b85f5e23c03081fd47c2
+  checksum: 10/aa030cdd43ffbf6a8825c16eec1515729553ce3655a8fa5165f0ddab2320957a9783effbeff37662e238e6f5d979d9732e3baa4bcaaeba4360856e627a214177
   languageName: node
   linkType: hard
 
@@ -6623,7 +6623,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@anolilab/multi-semantic-release": "npm:1.1.4"
+    "@anolilab/multi-semantic-release": "npm:1.1.5"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
