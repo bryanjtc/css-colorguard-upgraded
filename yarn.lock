@@ -2061,9 +2061,9 @@ __metadata:
     "@semantic-release/npm": "npm:12.0.1"
     "@types/node": "npm:22.9.0"
     "@types/yargs": "npm:17.0.33"
-    colorguard-processor: "npm:2.0.96"
+    colorguard-processor: "npm:2.0.97"
     gitmojis: "npm:3.14.0"
-    postcss: "npm:8.4.48"
+    postcss: "npm:8.4.49"
     semantic-release: "npm:24.2.0"
     semantic-release-gitmoji: "npm:1.6.8"
     tsup: "npm:8.3.5"
@@ -2074,7 +2074,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"colorguard-processor@npm:2.0.96, colorguard-processor@workspace:packages/colorguard-processor":
+"colorguard-processor@npm:2.0.97, colorguard-processor@workspace:packages/colorguard-processor":
   version: 0.0.0-use.local
   resolution: "colorguard-processor@workspace:packages/colorguard-processor"
   dependencies:
@@ -2091,8 +2091,8 @@ __metadata:
     gitmojis: "npm:3.14.0"
     log-symbols: "npm:7.0.0"
     plur: "npm:5.1.0"
-    postcss: "npm:8.4.48"
-    postcss-colorguard: "npm:2.0.20"
+    postcss: "npm:8.4.49"
+    postcss-colorguard: "npm:2.0.21"
     postcss-reporter: "npm:7.1.0"
     semantic-release: "npm:24.2.0"
     semantic-release-gitmoji: "npm:1.6.8"
@@ -6073,7 +6073,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-colorguard@npm:2.0.20, postcss-colorguard@workspace:packages/postcss-colorguard":
+"postcss-colorguard@npm:2.0.21, postcss-colorguard@workspace:packages/postcss-colorguard":
   version: 0.0.0-use.local
   resolution: "postcss-colorguard@workspace:packages/postcss-colorguard"
   dependencies:
@@ -6087,7 +6087,7 @@ __metadata:
     color-diff: "npm:1.4.0"
     color-rgba: "npm:3.0.0"
     gitmojis: "npm:3.14.0"
-    postcss: "npm:8.4.48"
+    postcss: "npm:8.4.49"
     semantic-release: "npm:24.2.0"
     semantic-release-gitmoji: "npm:1.6.8"
     synesthesia: "npm:1.0.1"
@@ -6143,14 +6143,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.4.48":
-  version: 8.4.48
-  resolution: "postcss@npm:8.4.48"
+"postcss@npm:8.4.49":
+  version: 8.4.49
+  resolution: "postcss@npm:8.4.49"
   dependencies:
     nanoid: "npm:^3.3.7"
     picocolors: "npm:^1.1.1"
     source-map-js: "npm:^1.2.1"
-  checksum: 10/94d7b2255752607d120fb7de7b2a7f895ba1594a0e1b566cb01972ca4a7b04a65ed2a1783109f86bb28cfb421c5a58c54b9330942bedaa2fd35c5c605fa6beb8
+  checksum: 10/28fe1005b1339870e0a5006375ba5ac1213fd69800f79e7db09c398e074421ba6e162898e94f64942fed554037fd292db3811d87835d25ab5ef7f3c9daacb6ca
   languageName: node
   linkType: hard
 
