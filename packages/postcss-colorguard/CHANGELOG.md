@@ -1,3 +1,8 @@
+# [v2.0.22](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.21...postcss-colorguard-v2.0.22) (2024-11-12)
+
+## 🐛 Fixes
+- [`8a21230`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/8a21230)  build(deps): Update dependency postcss to v8.4.49 (#497) (Issues: [`#497`](https://github.com/bryanjtc/css-colorguard-upgraded/issues/497))
+
 # [v2.0.21](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.20...postcss-colorguard-v2.0.21) (2024-11-11)
 
 ## 🐛 Fixes
