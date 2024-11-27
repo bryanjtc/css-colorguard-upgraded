@@ -323,7 +323,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@ljharb/through@npm:^2.3.13":
+"@ljharb/through@npm:*, @ljharb/through@npm:^2.3.13":
   version: 2.3.13
   resolution: "@ljharb/through@npm:2.3.13"
   dependencies:
@@ -1277,13 +1277,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:5.6.4":
-  version: 5.6.4
-  resolution: "@types/tape@npm:5.6.4"
+"@types/tape@npm:5.6.5":
+  version: 5.6.5
+  resolution: "@types/tape@npm:5.6.5"
   dependencies:
+    "@ljharb/through": "npm:*"
     "@types/node": "npm:*"
-    "@types/through": "npm:*"
-  checksum: 10/5f41c97bfbef1882efcf16f2335f34f16d1df7bf6045d36ba7b5a416f3364f132000dd2c2c2ba69c152656b7e6a8d9e74fbbec348af426e165f4aa8860ab3eeb
+  checksum: 10/32115646d76a1a451b9171996fd1da017f4068b154c87e392a46ba789b0ddd501e8512bd4ccacc6fbc5a5bc56682a549bd240503b4722efbb27114893472da8d
   languageName: node
   linkType: hard
 
@@ -1291,15 +1291,6 @@ __metadata:
   version: 0.2.5
   resolution: "@types/text-table@npm:0.2.5"
   checksum: 10/4e96313dc25983868d84b75921c6159de569509921234c2c3bc8e2aac7963323f326b07d485d2c38342d5c1e7d2a0a39c2f3996b5f00f57af4b554b5d710f59d
-  languageName: node
-  linkType: hard
-
-"@types/through@npm:*":
-  version: 0.0.32
-  resolution: "@types/through@npm:0.0.32"
-  dependencies:
-    "@types/node": "npm:*"
-  checksum: 10/dd0e45434bca5851c8358dd7e8d0156708d736a34ce261f030a8d2103a89cac662a434cb85016263505fe00de8b4b9f50b8d84e2e51792621b398dd6e2953375
   languageName: node
   linkType: hard
 
@@ -2085,7 +2076,7 @@ __metadata:
     "@semantic-release/npm": "npm:12.0.1"
     "@types/node": "npm:22.10.0"
     "@types/postcss-reporter": "npm:7.0.5"
-    "@types/tape": "npm:5.6.4"
+    "@types/tape": "npm:5.6.5"
     "@types/text-table": "npm:0.2.5"
     colorette: "npm:2.0.20"
     gitmojis: "npm:3.14.0"
