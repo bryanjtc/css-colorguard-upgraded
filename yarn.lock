@@ -1277,13 +1277,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:5.6.5":
-  version: 5.6.5
-  resolution: "@types/tape@npm:5.6.5"
+"@types/tape@npm:5.7.0":
+  version: 5.7.0
+  resolution: "@types/tape@npm:5.7.0"
   dependencies:
     "@ljharb/through": "npm:*"
     "@types/node": "npm:*"
-  checksum: 10/32115646d76a1a451b9171996fd1da017f4068b154c87e392a46ba789b0ddd501e8512bd4ccacc6fbc5a5bc56682a549bd240503b4722efbb27114893472da8d
+    mock-property: "npm:*"
+  checksum: 10/7b1af5e6dad63d136b9bddb85e20a84b4e9fe8f02742a7b50da062825cfea4adb297852c658b51854d0b3e40ca1c97cbf85e578a4153c1f172c395bbe11ac354
   languageName: node
   linkType: hard
 
@@ -2076,7 +2077,7 @@ __metadata:
     "@semantic-release/npm": "npm:12.0.1"
     "@types/node": "npm:22.10.2"
     "@types/postcss-reporter": "npm:7.0.5"
-    "@types/tape": "npm:5.6.5"
+    "@types/tape": "npm:5.7.0"
     "@types/text-table": "npm:0.2.5"
     colorette: "npm:2.0.20"
     gitmojis: "npm:3.14.0"
@@ -5165,7 +5166,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mock-property@npm:^1.1.0":
+"mock-property@npm:*, mock-property@npm:^1.1.0":
   version: 1.1.0
   resolution: "mock-property@npm:1.1.0"
   dependencies:
