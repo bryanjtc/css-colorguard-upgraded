@@ -1277,14 +1277,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tape@npm:5.7.0":
-  version: 5.7.0
-  resolution: "@types/tape@npm:5.7.0"
+"@types/tape@npm:5.8.0":
+  version: 5.8.0
+  resolution: "@types/tape@npm:5.8.0"
   dependencies:
     "@ljharb/through": "npm:*"
     "@types/node": "npm:*"
     mock-property: "npm:*"
-  checksum: 10/7b1af5e6dad63d136b9bddb85e20a84b4e9fe8f02742a7b50da062825cfea4adb297852c658b51854d0b3e40ca1c97cbf85e578a4153c1f172c395bbe11ac354
+  checksum: 10/65517b0a1bfa2c3a43c66ffe1302b88b5c22bef322698052ede235d5ae4a4a53ea86f260f8fb80a2a121ac309a01248e4216d3143cb5b5d5f2c8299ab09c06fb
   languageName: node
   linkType: hard
 
@@ -2077,7 +2077,7 @@ __metadata:
     "@semantic-release/npm": "npm:12.0.1"
     "@types/node": "npm:22.10.2"
     "@types/postcss-reporter": "npm:7.0.5"
-    "@types/tape": "npm:5.7.0"
+    "@types/tape": "npm:5.8.0"
     "@types/text-table": "npm:0.2.5"
     colorette: "npm:2.0.20"
     gitmojis: "npm:3.14.0"
