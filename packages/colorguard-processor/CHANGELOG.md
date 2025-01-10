@@ -1,3 +1,13 @@
+# [v2.0.100](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.99...colorguard-processor-v2.0.100) (2025-01-10)
+
+## 🐛 Fixes
+- [`eaccd80`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/eaccd80)  build(deps): Update dependency typescript to v5.7.3 (#518) (Issues: [`#518`](https://github.com/bryanjtc/css-colorguard-upgraded/issues/518))
+
+
+### Dependencies
+
+* **postcss-colorguard:** upgraded to 2.0.24
+
 # [v2.0.99](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-processor-v2.0.98...colorguard-processor-v2.0.99) (2024-11-22)
 
 ## 🐛 Fixes
