@@ -1245,12 +1245,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.10.5":
-  version: 22.10.5
-  resolution: "@types/node@npm:22.10.5"
+"@types/node@npm:22.10.6":
+  version: 22.10.6
+  resolution: "@types/node@npm:22.10.6"
   dependencies:
     undici-types: "npm:~6.20.0"
-  checksum: 10/a5366961ffa9921e8f15435bc18ea9f8b7a7bb6b3d92dd5e93ebcd25e8af65708872bd8e6fee274b4655bab9ca80fbff9f0e42b5b53857790f13cf68cf4cbbfc
+  checksum: 10/ac93c9b6337ddb70176abade1ca4cdec24cde93cfc19023f3e001d80cb42f1d3c2487dd1626ce016985953319de30528d9e73dc5c6e2e28be9eaa9ec0237fc1d
   languageName: node
   linkType: hard
 
@@ -2051,9 +2051,9 @@ __metadata:
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/github": "npm:11.0.0"
     "@semantic-release/npm": "npm:12.0.1"
-    "@types/node": "npm:22.10.5"
+    "@types/node": "npm:22.10.6"
     "@types/yargs": "npm:17.0.33"
-    colorguard-processor: "npm:2.0.99"
+    colorguard-processor: "npm:2.0.100"
     gitmojis: "npm:3.14.0"
     postcss: "npm:8.4.49"
     semantic-release: "npm:24.2.1"
@@ -2066,7 +2066,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"colorguard-processor@npm:2.0.99, colorguard-processor@workspace:packages/colorguard-processor":
+"colorguard-processor@npm:2.0.100, colorguard-processor@workspace:packages/colorguard-processor":
   version: 0.0.0-use.local
   resolution: "colorguard-processor@workspace:packages/colorguard-processor"
   dependencies:
@@ -2075,7 +2075,7 @@ __metadata:
     "@semantic-release/git": "npm:10.0.1"
     "@semantic-release/github": "npm:11.0.0"
     "@semantic-release/npm": "npm:12.0.1"
-    "@types/node": "npm:22.10.5"
+    "@types/node": "npm:22.10.6"
     "@types/postcss-reporter": "npm:7.0.5"
     "@types/tape": "npm:5.8.0"
     "@types/text-table": "npm:0.2.5"
@@ -2084,7 +2084,7 @@ __metadata:
     log-symbols: "npm:7.0.0"
     plur: "npm:5.1.0"
     postcss: "npm:8.4.49"
-    postcss-colorguard: "npm:2.0.23"
+    postcss-colorguard: "npm:2.0.24"
     postcss-reporter: "npm:7.1.0"
     semantic-release: "npm:24.2.1"
     semantic-release-gitmoji: "npm:1.6.8"
@@ -6087,7 +6087,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-colorguard@npm:2.0.23, postcss-colorguard@workspace:packages/postcss-colorguard":
+"postcss-colorguard@npm:2.0.24, postcss-colorguard@workspace:packages/postcss-colorguard":
   version: 0.0.0-use.local
   resolution: "postcss-colorguard@workspace:packages/postcss-colorguard"
   dependencies:
