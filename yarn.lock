@@ -5,9 +5,9 @@ __metadata:
   version: 8
   cacheKey: 10
 
-"@anolilab/multi-semantic-release@npm:1.1.7":
-  version: 1.1.7
-  resolution: "@anolilab/multi-semantic-release@npm:1.1.7"
+"@anolilab/multi-semantic-release@npm:1.1.8":
+  version: 1.1.8
+  resolution: "@anolilab/multi-semantic-release@npm:1.1.8"
   dependencies:
     "@semrel-extra/topo": "npm:^1.14.1"
     blork: "npm:^9.3.0"
@@ -6630,7 +6630,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
-    "@anolilab/multi-semantic-release": "npm:1.1.7"
+    "@anolilab/multi-semantic-release": "npm:1.1.8"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/exec": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
