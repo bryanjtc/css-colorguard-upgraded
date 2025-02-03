@@ -41,7 +41,7 @@
   "homepage": "https://github.com/bryanjtc/css-colorguard-upgraded/tree/master/packages/colorguard-processor/README.md",
   "devDependencies": {
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/exec": "7.0.2",
+    "@semantic-release/exec": "7.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "11.0.0",
     "@semantic-release/npm": "12.0.1",
