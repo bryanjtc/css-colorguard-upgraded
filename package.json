@@ -8,7 +8,7 @@
     "release": "multi-semantic-release"
   },
   "devDependencies": {
-    "@anolilab/multi-semantic-release": "1.1.9",
+    "@anolilab/multi-semantic-release": "1.1.10",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "7.0.3",
     "@semantic-release/git": "10.0.1",
