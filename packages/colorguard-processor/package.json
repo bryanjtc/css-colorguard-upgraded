@@ -1,6 +1,6 @@
 {
   "name": "colorguard-processor",
-  "version": "2.0.101",
+  "version": "2.0.102",
   "description": "PostCSS processor to keep a watchful eye on your css colors",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -54,7 +54,7 @@
     "log-symbols": "7.0.0",
     "plur": "5.1.0",
     "postcss": "8.5.2",
-    "postcss-colorguard": "2.0.25",
+    "postcss-colorguard": "2.0.26",
     "postcss-reporter": "7.1.0",
     "semantic-release": "24.2.2",
     "semantic-release-gitmoji": "1.6.8",
