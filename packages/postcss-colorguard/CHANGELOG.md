@@ -1,3 +1,8 @@
+# [v2.0.29](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.28...postcss-colorguard-v2.0.29) (2025-04-05)
+
+## 🐛 Fixes
+- [`f630221`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/f630221)  build(deps): Update dependency typescript to v5.8.3 (#557) (Issues: [`#557`](https://github.com/bryanjtc/css-colorguard-upgraded/issues/557))
+
 # [v2.0.28](https://github.com/bryanjtc/css-colorguard-upgraded/compare/postcss-colorguard-v2.0.27...postcss-colorguard-v2.0.28) (2025-02-28)
 
 ## 🐛 Fixes
