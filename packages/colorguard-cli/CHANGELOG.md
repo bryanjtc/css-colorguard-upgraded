@@ -1,3 +1,13 @@
+# [v2.0.94](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.93...colorguard-cli-v2.0.94) (2025-04-05)
+
+## 🐛 Fixes
+- [`f630221`](https://github.com/bryanjtc/css-colorguard-upgraded/commit/f630221)  build(deps): Update dependency typescript to v5.8.3 (#557) (Issues: [`#557`](https://github.com/bryanjtc/css-colorguard-upgraded/issues/557))
+
+
+### Dependencies
+
+* **colorguard-processor:** upgraded to 2.0.105
+
 # [v2.0.93](https://github.com/bryanjtc/css-colorguard-upgraded/compare/colorguard-cli-v2.0.92...colorguard-cli-v2.0.93) (2025-02-28)
 
 ## 🐛 Fixes
